@@ -1,0 +1,107 @@
+{
+  "acceptance_rates": {
+    "15000000": {
+      "accepted": 12,
+      "attempts": 12,
+      "peak_mib_range": [
+        79.76,
+        79.94
+      ]
+    },
+    "16000000": {
+      "accepted": 12,
+      "attempts": 12,
+      "peak_mib_range": [
+        83.63,
+        83.84
+      ]
+    },
+    "17000000": {
+      "accepted": 3,
+      "attempts": 12,
+      "peak_mib_range": [
+        66.25,
+        87.71
+      ]
+    },
+    "18000000": {
+      "accepted": 1,
+      "attempts": 12,
+      "peak_mib_range": [
+        68.86,
+        91.29
+      ]
+    },
+    "19000000": {
+      "accepted": 1,
+      "attempts": 12,
+      "peak_mib_range": [
+        71.33,
+        94.86
+      ]
+    },
+    "20000000": {
+      "accepted": 0,
+      "attempts": 12,
+      "peak_mib_range": [
+        73.87,
+        73.91
+      ]
+    },
+    "21000000": {
+      "accepted": 3,
+      "attempts": 12,
+      "peak_mib_range": [
+        76.44,
+        102.72
+      ]
+    },
+    "22000000": {
+      "accepted": 0,
+      "attempts": 12,
+      "peak_mib_range": [
+        78.74,
+        79.02
+      ]
+    },
+    "23000000": {
+      "accepted": 0,
+      "attempts": 12,
+      "peak_mib_range": [
+        81.51,
+        81.55
+      ]
+    },
+    "24000000": {
+      "accepted": 0,
+      "attempts": 12,
+      "peak_mib_range": [
+        83.73,
+        84.09
+      ]
+    },
+    "25000000": {
+      "accepted": 0,
+      "attempts": 12,
+      "peak_mib_range": [
+        86.33,
+        86.63
+      ]
+    }
+  },
+  "cap_bytes_documented": 25165824,
+  "confirmations": {
+    "16000000": {
+      "accepted": 6,
+      "attempts": 6
+    },
+    "25000000": {
+      "accepted": 0,
+      "attempts": 6
+    }
+  },
+  "method": "fresh RLIMIT_AS=192MiB process per attempt; exactly one streamed upload per process; repeated to expose variance",
+  "note": "The documented decoded cap is 24 MiB (25 165 824 B). Under a 192 MiB process the effective ceiling is a band, not a threshold: 16 MB (16 000 000 B) was accepted in all 6 confirmations, 25 MB (near-limit) was rejected in all 6 confirmations, and sizes in between (17-21 MB) were erratic because failure-point peak memory varies run to run.",
+  "reliable_accept_bytes": 16000000,
+  "reliable_reject_bytes": 25000000
+}

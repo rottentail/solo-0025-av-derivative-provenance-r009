@@ -1,0 +1,48 @@
+{
+  "family": "mix_order",
+  "integrity_result": "verified",
+  "media_file": "f3_weak_gain_up.wav",
+  "media_sha256": "d25fa842b6d74dc3b285fc827d69e5e48509d073d74caf27e291fd5881c3fdad",
+  "normalized_operations": [
+    {
+      "db": 6.0,
+      "type": "audio_gain"
+    },
+    {
+      "primary_weight": 1.0,
+      "secondary_gain": 0.0,
+      "secondary_weight": 1.0,
+      "type": "audio_mix"
+    },
+    {
+      "target_peak": 0.5,
+      "type": "audio_normalize"
+    }
+  ],
+  "output_asset_id": "asset_f88e5dddb64d4991ae957460eb69fa6b",
+  "plan_digest": "23b0bd4d78ce4e667bedd535ca17e5e653e3b30ac58e7f9d8d07aca5265d60cd",
+  "primary_asset_id": "asset_b88d15441c2048efb0ba4879574a20e6",
+  "primary_asset_sha256": "f527458fd7eb2e2df57a1c20b9080a70e588e3e5e8173f8a09011020f413cf79",
+  "recorded_plan_digest": "23b0bd4d78ce4e667bedd535ca17e5e653e3b30ac58e7f9d8d07aca5265d60cd",
+  "rendition_id": "rendition_bf3d191d162c485182c490321f656f8b",
+  "requested_operations": [
+    {
+      "db": 6,
+      "type": "audio_gain"
+    },
+    {
+      "primary_weight": 1.0,
+      "secondary_gain": 0.0,
+      "secondary_weight": 1.0,
+      "type": "audio_mix"
+    },
+    {
+      "target_peak": 0.5,
+      "type": "audio_normalize"
+    }
+  ],
+  "rss_hwm_mib": 25.91,
+  "secondary_asset_id": "asset_a2b7fd2eb49b4d5f8f2cf8591d2d556f",
+  "secondary_asset_sha256": "b7e8365d9cf9836a0193704aca82aa13a2ca8458179d8203b1df0bfc57808572",
+  "trial_id": "f3_weak_gain_up"
+}

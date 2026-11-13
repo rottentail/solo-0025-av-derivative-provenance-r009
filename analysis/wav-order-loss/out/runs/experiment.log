@@ -1,0 +1,66 @@
+{"progress": "1/33", "trial_id": "f1_dense_norm_only", "family": "gain_order"}
+{"trial_id": "f1_dense_norm_only", "status": "completed", "rss_hwm_mib": 24.48, "elapsed": 0.126}
+{"progress": "2/33", "trial_id": "f1_dense_atten_then_norm", "family": "gain_order"}
+{"trial_id": "f1_dense_atten_then_norm", "status": "completed", "rss_hwm_mib": 24.69, "elapsed": 0.127}
+{"progress": "3/33", "trial_id": "f1_dense_clip_early", "family": "gain_order"}
+{"trial_id": "f1_dense_clip_early", "status": "completed", "rss_hwm_mib": 24.09, "elapsed": 0.117}
+{"progress": "4/33", "trial_id": "f1_dense_clip_late", "family": "gain_order"}
+{"trial_id": "f1_dense_clip_late", "status": "completed", "rss_hwm_mib": 24.82, "elapsed": 0.124}
+{"progress": "5/33", "trial_id": "f1_dense_net_zero", "family": "gain_order"}
+{"trial_id": "f1_dense_net_zero", "status": "completed", "rss_hwm_mib": 24.83, "elapsed": 0.127}
+{"progress": "6/33", "trial_id": "f1_sparse_norm_only", "family": "gain_order"}
+{"trial_id": "f1_sparse_norm_only", "status": "completed", "rss_hwm_mib": 23.61, "elapsed": 0.106}
+{"progress": "7/33", "trial_id": "f1_sparse_atten_then_norm", "family": "gain_order"}
+{"trial_id": "f1_sparse_atten_then_norm", "status": "completed", "rss_hwm_mib": 23.54, "elapsed": 0.112}
+{"progress": "8/33", "trial_id": "f1_sparse_clip_early", "family": "gain_order"}
+{"trial_id": "f1_sparse_clip_early", "status": "completed", "rss_hwm_mib": 23.54, "elapsed": 0.122}
+{"progress": "9/33", "trial_id": "f1_sparse_clip_late", "family": "gain_order"}
+{"trial_id": "f1_sparse_clip_late", "status": "completed", "rss_hwm_mib": 23.68, "elapsed": 0.129}
+{"progress": "10/33", "trial_id": "f1_sparse_net_zero", "family": "gain_order"}
+{"trial_id": "f1_sparse_net_zero", "status": "completed", "rss_hwm_mib": 23.78, "elapsed": 0.123}
+{"progress": "11/33", "trial_id": "f2_dense_norm_only", "family": "quantization"}
+{"trial_id": "f2_dense_norm_only", "status": "completed", "rss_hwm_mib": 24.56, "elapsed": 0.11}
+{"progress": "12/33", "trial_id": "f2_dense_quiet_2lsb", "family": "quantization"}
+{"trial_id": "f2_dense_quiet_2lsb", "status": "completed", "rss_hwm_mib": 24.81, "elapsed": 0.126}
+{"progress": "13/33", "trial_id": "f2_dense_quiet_annihilated", "family": "quantization"}
+{"trial_id": "f2_dense_quiet_annihilated", "status": "completed", "rss_hwm_mib": 24.1, "elapsed": 0.152}
+{"progress": "14/33", "trial_id": "f3_weak_norm_first", "family": "mix_order"}
+{"trial_id": "f3_weak_norm_first", "status": "completed", "rss_hwm_mib": 26.09, "elapsed": 0.143}
+{"progress": "15/33", "trial_id": "f3_weak_mix_first", "family": "mix_order"}
+{"trial_id": "f3_weak_mix_first", "status": "completed", "rss_hwm_mib": 26.18, "elapsed": 0.128}
+{"progress": "16/33", "trial_id": "f3_weak_balanced", "family": "mix_order"}
+{"trial_id": "f3_weak_balanced", "status": "completed", "rss_hwm_mib": 26.26, "elapsed": 0.139}
+{"progress": "17/33", "trial_id": "f3_weak_gain_up", "family": "mix_order"}
+{"trial_id": "f3_weak_gain_up", "status": "completed", "rss_hwm_mib": 25.91, "elapsed": 0.14}
+{"progress": "18/33", "trial_id": "f3_quiet_norm_first", "family": "mix_order"}
+{"trial_id": "f3_quiet_norm_first", "status": "completed", "rss_hwm_mib": 26.1, "elapsed": 0.138}
+{"progress": "19/33", "trial_id": "f3_quiet_mix_first", "family": "mix_order"}
+{"trial_id": "f3_quiet_mix_first", "status": "completed", "rss_hwm_mib": 26.07, "elapsed": 0.125}
+{"progress": "20/33", "trial_id": "f3_quiet_boost_secondary", "family": "mix_order"}
+{"trial_id": "f3_quiet_boost_secondary", "status": "completed", "rss_hwm_mib": 25.81, "elapsed": 0.135}
+{"progress": "21/33", "trial_id": "f4_trim_then_norm", "family": "trim_order"}
+{"trial_id": "f4_trim_then_norm", "status": "completed", "rss_hwm_mib": 23.74, "elapsed": 0.098}
+{"progress": "22/33", "trial_id": "f4_norm_then_trim", "family": "trim_order"}
+{"trial_id": "f4_norm_then_trim", "status": "completed", "rss_hwm_mib": 24.35, "elapsed": 0.101}
+{"progress": "23/33", "trial_id": "f5_budget_1mb", "family": "budget"}
+{"trial_id": "f5_budget_1mb", "status": "completed", "rss_hwm_mib": 59.75, "elapsed": 0.506}
+{"progress": "24/33", "trial_id": "f5_budget_2mb", "family": "budget"}
+{"trial_id": "f5_budget_2mb", "status": "incomplete:not_recorded", "rss_hwm_mib": 102.5, "elapsed": 0.501}
+{"progress": "25/33", "trial_id": "f5_budget_3mb", "family": "budget"}
+{"trial_id": "f5_budget_3mb", "status": "incomplete:not_recorded", "rss_hwm_mib": 102.43, "elapsed": 0.485}
+{"progress": "26/33", "trial_id": "f5_budget_4mb", "family": "budget"}
+{"trial_id": "f5_budget_4mb", "status": "incomplete:not_recorded", "rss_hwm_mib": 104.66, "elapsed": 0.194}
+{"progress": "27/33", "trial_id": "f5_budget_8mb", "family": "budget"}
+{"trial_id": "f5_budget_8mb", "status": "incomplete:not_recorded", "rss_hwm_mib": 96.94, "elapsed": 0.371}
+{"progress": "28/33", "trial_id": "f5_budget_16mb", "family": "budget"}
+{"trial_id": "f5_budget_16mb", "status": "incomplete:not_recorded", "rss_hwm_mib": 83.29, "elapsed": 0.185}
+{"progress": "29/33", "trial_id": "f5_budget_20mb", "family": "budget"}
+{"trial_id": "f5_budget_20mb", "status": "incomplete:not_recorded", "rss_hwm_mib": 98.56, "elapsed": 0.235}
+{"progress": "30/33", "trial_id": "f6_near_dense_reference", "family": "near_limit"}
+{"trial_id": "f6_near_dense_reference", "status": "incomplete:not_recorded", "rss_hwm_mib": 86.35, "elapsed": 0.161}
+{"progress": "31/33", "trial_id": "f6_near_dense_clip", "family": "near_limit"}
+{"trial_id": "f6_near_dense_clip", "status": "incomplete:not_recorded", "rss_hwm_mib": 86.25, "elapsed": 0.153}
+{"progress": "32/33", "trial_id": "f6_near_sparse_reference", "family": "near_limit"}
+{"trial_id": "f6_near_sparse_reference", "status": "incomplete:not_recorded", "rss_hwm_mib": 86.39, "elapsed": 0.154}
+{"progress": "33/33", "trial_id": "f6_near_sparse_clip", "family": "near_limit"}
+{"trial_id": "f6_near_sparse_clip", "status": "incomplete:not_recorded", "rss_hwm_mib": 86.36, "elapsed": 0.148}

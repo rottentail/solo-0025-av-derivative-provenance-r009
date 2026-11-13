@@ -1,0 +1,68 @@
+{
+  "family": "quantization",
+  "integrity_result": "verified",
+  "media_file": "f2_dense_quiet_annihilated.wav",
+  "media_sha256": "f2629e690dfe9374473e388aeb0827e878a3d13564c05fe1d6cb06fe9b6ebb32",
+  "normalized_operations": [
+    {
+      "db": -48.0,
+      "type": "audio_gain"
+    },
+    {
+      "db": -24.0,
+      "type": "audio_gain"
+    },
+    {
+      "db": 24.0,
+      "type": "audio_gain"
+    },
+    {
+      "db": 24.0,
+      "type": "audio_gain"
+    },
+    {
+      "db": 24.0,
+      "type": "audio_gain"
+    },
+    {
+      "target_peak": 0.5,
+      "type": "audio_normalize"
+    }
+  ],
+  "output_asset_id": "asset_7ec4cc2ca35c4ac380cf4423a9c30db1",
+  "plan_digest": "531c9ab92878c3d878f2689077c1ab7a83fb940cca41153761a80f28a539ef45",
+  "primary_asset_id": "asset_64d5e98011e84bb8b061261fa81ed82b",
+  "primary_asset_sha256": "09f39db187ec3a302125d82fe89ce9535f41bb0b10e2f1b57558b45fd8b57b16",
+  "recorded_plan_digest": "531c9ab92878c3d878f2689077c1ab7a83fb940cca41153761a80f28a539ef45",
+  "rendition_id": "rendition_9d608b2535ba4b6a80e7d4ac7d15d58b",
+  "requested_operations": [
+    {
+      "db": -48,
+      "type": "audio_gain"
+    },
+    {
+      "db": -24,
+      "type": "audio_gain"
+    },
+    {
+      "db": 24,
+      "type": "audio_gain"
+    },
+    {
+      "db": 24,
+      "type": "audio_gain"
+    },
+    {
+      "db": 24,
+      "type": "audio_gain"
+    },
+    {
+      "target_peak": 0.5,
+      "type": "audio_normalize"
+    }
+  ],
+  "rss_hwm_mib": 24.1,
+  "secondary_asset_id": null,
+  "secondary_asset_sha256": null,
+  "trial_id": "f2_dense_quiet_annihilated"
+}

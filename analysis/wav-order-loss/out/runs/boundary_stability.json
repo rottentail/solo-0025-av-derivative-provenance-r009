@@ -1,0 +1,312 @@
+{
+  "combined_2mb": {
+    "attempts": 28,
+    "completed": 4
+  },
+  "note": "f5_budget_2mb sits on the 192 MiB boundary. Across the recorded stability batch (0/8) plus three supplementary batches (3/10, 1/12, 0/6) it completed 4 times in 36 attempts. Rungs 1 MB (8/8) and 3 MB+ (0/8) were stable, so the boundary is a narrow band around ~2 MB input, not a sharp threshold. The main run's f5_budget_2mb is recorded as incomplete because that attempt did fail (MemoryError @ execute_plan).",
+  "repeat": 8,
+  "runs": {
+    "f5_budget_16mb": {
+      "attempts": 8,
+      "completed": 0,
+      "failed": 8,
+      "outcomes": [
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 83.33
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 83.17
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 83.25
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 83.15
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 83.32
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 83.54
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 83.32
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 83.3
+        }
+      ]
+    },
+    "f5_budget_1mb": {
+      "attempts": 8,
+      "completed": 8,
+      "failed": 0,
+      "outcomes": [
+        {
+          "completed": true,
+          "phase_reached": "media_captured",
+          "rss_hwm_mib": 59.6
+        },
+        {
+          "completed": true,
+          "phase_reached": "media_captured",
+          "rss_hwm_mib": 59.93
+        },
+        {
+          "completed": true,
+          "phase_reached": "media_captured",
+          "rss_hwm_mib": 62.61
+        },
+        {
+          "completed": true,
+          "phase_reached": "media_captured",
+          "rss_hwm_mib": 59.85
+        },
+        {
+          "completed": true,
+          "phase_reached": "media_captured",
+          "rss_hwm_mib": 59.79
+        },
+        {
+          "completed": true,
+          "phase_reached": "media_captured",
+          "rss_hwm_mib": 59.85
+        },
+        {
+          "completed": true,
+          "phase_reached": "media_captured",
+          "rss_hwm_mib": 59.86
+        },
+        {
+          "completed": true,
+          "phase_reached": "media_captured",
+          "rss_hwm_mib": 59.98
+        }
+      ]
+    },
+    "f5_budget_2mb": {
+      "attempts": 8,
+      "completed": 0,
+      "failed": 8,
+      "outcomes": [
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.43
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.45
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.58
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.27
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.76
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.72
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.58
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.61
+        }
+      ]
+    },
+    "f5_budget_3mb": {
+      "attempts": 8,
+      "completed": 0,
+      "failed": 8,
+      "outcomes": [
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 101.96
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.39
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.46
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.11
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 101.87
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.16
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 101.73
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.04
+        }
+      ]
+    },
+    "f5_budget_4mb": {
+      "attempts": 8,
+      "completed": 0,
+      "failed": 8,
+      "outcomes": [
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.75
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.78
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.54
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.79
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.83
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 90.11
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 104.74
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 102.64
+        }
+      ]
+    },
+    "f5_budget_8mb": {
+      "attempts": 8,
+      "completed": 0,
+      "failed": 8,
+      "outcomes": [
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 96.86
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 97.0
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 96.8
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 96.95
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 96.93
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 98.99
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 96.78
+        },
+        {
+          "completed": false,
+          "phase_reached": "rendition_failed",
+          "rss_hwm_mib": 96.77
+        }
+      ]
+    }
+  },
+  "supplementary_2mb_batches": [
+    {
+      "attempts": 10,
+      "completed": 3,
+      "method": "per-attempt fresh capped process; shared work dir for media only",
+      "note": "first exploratory batch"
+    },
+    {
+      "attempts": 12,
+      "completed": 1,
+      "method": "per-attempt fresh capped process; shared work dir for media only",
+      "note": "confirmation batch"
+    },
+    {
+      "attempts": 6,
+      "completed": 0,
+      "method": "per-attempt fresh capped process; fresh work dir",
+      "note": "final confirmation batch"
+    }
+  ]
+}

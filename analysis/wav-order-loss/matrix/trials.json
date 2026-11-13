@@ -1,0 +1,788 @@
+[
+  {
+    "compare_to": null,
+    "expected_class": "reference_clean",
+    "family": "gain_order",
+    "group": "gain_order_dense",
+    "intent": "Single normalize to 0.5: the clean reference at the final peak.",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f1_dense_norm_only.wav",
+    "primary_asset_file": "dense_stereo_2s.wav",
+    "role": "A_reference",
+    "secondary_asset_file": null,
+    "trial_id": "f1_dense_norm_only"
+  },
+  {
+    "compare_to": "f1_dense_norm_only",
+    "expected_class": "reference_no_clip",
+    "family": "gain_order",
+    "group": "gain_order_dense",
+    "intent": "Attenuate 6 dB, then normalize: never clips.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f1_dense_atten_then_norm.wav",
+    "primary_asset_file": "dense_stereo_2s.wav",
+    "role": "A_reference",
+    "secondary_asset_file": null,
+    "trial_id": "f1_dense_atten_then_norm"
+  },
+  {
+    "compare_to": "f1_dense_norm_only",
+    "expected_class": "clipping_early",
+    "family": "gain_order",
+    "group": "gain_order_dense",
+    "intent": "Boost 6 dB first: 32000 peaks become ~63840 and clip hard, then normalize.",
+    "operations": [
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f1_dense_clip_early.wav",
+    "primary_asset_file": "dense_stereo_2s.wav",
+    "role": "B_lossy",
+    "secondary_asset_file": null,
+    "trial_id": "f1_dense_clip_early"
+  },
+  {
+    "compare_to": "f1_dense_norm_only",
+    "expected_class": "clipping_late",
+    "family": "gain_order",
+    "group": "gain_order_dense",
+    "intent": "Normalize, boost 12 dB so the chain clips, then normalize again; flat tops persist.",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "db": 12,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f1_dense_clip_late.wav",
+    "primary_asset_file": "dense_stereo_2s.wav",
+    "role": "B_lossy",
+    "secondary_asset_file": null,
+    "trial_id": "f1_dense_clip_late"
+  },
+  {
+    "compare_to": "f1_dense_norm_only",
+    "expected_class": "quantization_roundtrip",
+    "family": "gain_order",
+    "group": "gain_order_dense",
+    "intent": "-6 then +6 dB: level restored but every sample rounded twice.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f1_dense_net_zero.wav",
+    "primary_asset_file": "dense_stereo_2s.wav",
+    "role": "B_lossy",
+    "secondary_asset_file": null,
+    "trial_id": "f1_dense_net_zero"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "reference_clean",
+    "family": "gain_order",
+    "group": "gain_order_sparse",
+    "intent": "Single normalize to 0.5: the clean reference at the final peak.",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f1_sparse_norm_only.wav",
+    "primary_asset_file": "sparse_transient_stereo_2s.wav",
+    "role": "A_reference",
+    "secondary_asset_file": null,
+    "trial_id": "f1_sparse_norm_only"
+  },
+  {
+    "compare_to": "f1_sparse_norm_only",
+    "expected_class": "reference_no_clip",
+    "family": "gain_order",
+    "group": "gain_order_sparse",
+    "intent": "Attenuate 6 dB, then normalize: never clips.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f1_sparse_atten_then_norm.wav",
+    "primary_asset_file": "sparse_transient_stereo_2s.wav",
+    "role": "A_reference",
+    "secondary_asset_file": null,
+    "trial_id": "f1_sparse_atten_then_norm"
+  },
+  {
+    "compare_to": "f1_sparse_norm_only",
+    "expected_class": "clipping_early",
+    "family": "gain_order",
+    "group": "gain_order_sparse",
+    "intent": "Boost 6 dB first: 32000 peaks become ~63840 and clip hard, then normalize.",
+    "operations": [
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f1_sparse_clip_early.wav",
+    "primary_asset_file": "sparse_transient_stereo_2s.wav",
+    "role": "B_lossy",
+    "secondary_asset_file": null,
+    "trial_id": "f1_sparse_clip_early"
+  },
+  {
+    "compare_to": "f1_sparse_norm_only",
+    "expected_class": "clipping_late",
+    "family": "gain_order",
+    "group": "gain_order_sparse",
+    "intent": "Normalize, boost 12 dB so the chain clips, then normalize again; flat tops persist.",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "db": 12,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f1_sparse_clip_late.wav",
+    "primary_asset_file": "sparse_transient_stereo_2s.wav",
+    "role": "B_lossy",
+    "secondary_asset_file": null,
+    "trial_id": "f1_sparse_clip_late"
+  },
+  {
+    "compare_to": "f1_sparse_norm_only",
+    "expected_class": "quantization_roundtrip",
+    "family": "gain_order",
+    "group": "gain_order_sparse",
+    "intent": "-6 then +6 dB: level restored but every sample rounded twice.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f1_sparse_net_zero.wav",
+    "primary_asset_file": "sparse_transient_stereo_2s.wav",
+    "role": "B_lossy",
+    "secondary_asset_file": null,
+    "trial_id": "f1_sparse_net_zero"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "reference_clean",
+    "family": "quantization",
+    "group": "quant_dense",
+    "intent": "Single normalize to 0.5: both channels keep their detail.",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f2_dense_norm_only.wav",
+    "primary_asset_file": "dense_stereo_2s.wav",
+    "role": "A_reference",
+    "secondary_asset_file": null,
+    "trial_id": "f2_dense_norm_only"
+  },
+  {
+    "compare_to": "f2_dense_norm_only",
+    "expected_class": "quiet_detail_coarse",
+    "family": "quantization",
+    "group": "quant_dense",
+    "intent": "-24 then +24 dB: the quiet right pilot is reduced to ~2 LSB before being restored.",
+    "operations": [
+      {
+        "db": -24,
+        "type": "audio_gain"
+      },
+      {
+        "db": 24,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f2_dense_quiet_2lsb.wav",
+    "primary_asset_file": "dense_stereo_2s.wav",
+    "role": "B_lossy",
+    "secondary_asset_file": null,
+    "trial_id": "f2_dense_quiet_2lsb"
+  },
+  {
+    "compare_to": "f2_dense_norm_only",
+    "expected_class": "quiet_detail_annihilated",
+    "family": "quantization",
+    "group": "quant_dense",
+    "intent": "-48, -24, +24, +24, +24 dB (net 0): the quiet right pilot rounds to zero and stays zero.",
+    "operations": [
+      {
+        "db": -48,
+        "type": "audio_gain"
+      },
+      {
+        "db": -24,
+        "type": "audio_gain"
+      },
+      {
+        "db": 24,
+        "type": "audio_gain"
+      },
+      {
+        "db": 24,
+        "type": "audio_gain"
+      },
+      {
+        "db": 24,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f2_dense_quiet_annihilated.wav",
+    "primary_asset_file": "dense_stereo_2s.wav",
+    "role": "B_lossy",
+    "secondary_asset_file": null,
+    "trial_id": "f2_dense_quiet_annihilated"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "reference_no_clip",
+    "family": "mix_order",
+    "group": "mix_weak",
+    "intent": "Normalize the primary, then mix the secondary, then normalize again.",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f3_weak_norm_first.wav",
+    "primary_asset_file": "mix_strong_primary.wav",
+    "role": "A_reference",
+    "secondary_asset_file": "mix_weak_secondary.wav",
+    "trial_id": "f3_weak_norm_first"
+  },
+  {
+    "compare_to": "f3_weak_norm_first",
+    "expected_class": "mix_clipping",
+    "family": "mix_order",
+    "group": "mix_weak",
+    "intent": "Mix first: 30000 + 6000 exceeds full scale and clips before normalizing.",
+    "operations": [
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f3_weak_mix_first.wav",
+    "primary_asset_file": "mix_strong_primary.wav",
+    "role": "B_lossy",
+    "secondary_asset_file": "mix_weak_secondary.wav",
+    "trial_id": "f3_weak_mix_first"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "reference_balanced",
+    "family": "mix_order",
+    "group": "mix_weak",
+    "intent": "Attenuate primary and boost secondary before mixing: balanced, no clipping.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 6.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f3_weak_balanced.wav",
+    "primary_asset_file": "mix_strong_primary.wav",
+    "role": "A_reference",
+    "secondary_asset_file": "mix_weak_secondary.wav",
+    "trial_id": "f3_weak_balanced"
+  },
+  {
+    "compare_to": "f3_weak_balanced",
+    "expected_class": "mix_clipping",
+    "family": "mix_order",
+    "group": "mix_weak",
+    "intent": "Boost the primary before mixing: primary peaks clip before the sum is normalized.",
+    "operations": [
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f3_weak_gain_up.wav",
+    "primary_asset_file": "mix_strong_primary.wav",
+    "role": "B_lossy",
+    "secondary_asset_file": "mix_weak_secondary.wav",
+    "trial_id": "f3_weak_gain_up"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "reference_no_clip",
+    "family": "mix_order",
+    "group": "mix_quiet",
+    "intent": "Normalize the primary, then mix the quiet 600-peak secondary.",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f3_quiet_norm_first.wav",
+    "primary_asset_file": "mix_strong_primary.wav",
+    "role": "A_reference",
+    "secondary_asset_file": "mix_quiet_secondary.wav",
+    "trial_id": "f3_quiet_norm_first"
+  },
+  {
+    "compare_to": "f3_quiet_norm_first",
+    "expected_class": "reference_no_clip",
+    "family": "mix_order",
+    "group": "mix_quiet",
+    "intent": "Mix first with the quiet secondary; the sum stays below full scale, so no clipping here.",
+    "operations": [
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f3_quiet_mix_first.wav",
+    "primary_asset_file": "mix_strong_primary.wav",
+    "role": "B_lossy",
+    "secondary_asset_file": "mix_quiet_secondary.wav",
+    "trial_id": "f3_quiet_mix_first"
+  },
+  {
+    "compare_to": "f3_quiet_norm_first",
+    "expected_class": "mix_clipping",
+    "family": "mix_order",
+    "group": "mix_quiet",
+    "intent": "Boost the primary 6 dB before mixing, so 30000 peaks clip before the quiet sum is normalized.",
+    "operations": [
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f3_quiet_boost_secondary.wav",
+    "primary_asset_file": "mix_strong_primary.wav",
+    "role": "B_lossy",
+    "secondary_asset_file": "mix_quiet_secondary.wav",
+    "trial_id": "f3_quiet_boost_secondary"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "level_order_effect",
+    "family": "trim_order",
+    "group": "trim_order",
+    "intent": "Trim to the quiet 0.45-0.55 s window first, then normalize that window to 0.5.",
+    "operations": [
+      {
+        "duration_seconds": 0.1,
+        "start_seconds": 0.45,
+        "type": "media_trim"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f4_trim_then_norm.wav",
+    "primary_asset_file": "dynamics_stereo_2s.wav",
+    "role": "A_reference",
+    "secondary_asset_file": null,
+    "trial_id": "f4_trim_then_norm"
+  },
+  {
+    "compare_to": "f4_trim_then_norm",
+    "expected_class": "level_order_effect",
+    "family": "trim_order",
+    "group": "trim_order",
+    "intent": "Normalize against the full-file transient peak, then trim to the same quiet window.",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "duration_seconds": 0.1,
+        "start_seconds": 0.45,
+        "type": "media_trim"
+      }
+    ],
+    "output_name": "f4_norm_then_trim.wav",
+    "primary_asset_file": "dynamics_stereo_2s.wav",
+    "role": "B_contrast",
+    "secondary_asset_file": null,
+    "trial_id": "f4_norm_then_trim"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "budget_probe",
+    "family": "budget",
+    "group": "budget_ladder",
+    "intent": "Reference order on a 1 MB two-channel input.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f5_budget_1mb.wav",
+    "primary_asset_file": "boundary_1mb_dense.wav",
+    "role": "probe",
+    "secondary_asset_file": null,
+    "trial_id": "f5_budget_1mb"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "budget_probe",
+    "family": "budget",
+    "group": "budget_ladder",
+    "intent": "Reference order on a 2 MB two-channel input.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f5_budget_2mb.wav",
+    "primary_asset_file": "boundary_2mb_dense.wav",
+    "role": "probe",
+    "secondary_asset_file": null,
+    "trial_id": "f5_budget_2mb"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "budget_probe",
+    "family": "budget",
+    "group": "budget_ladder",
+    "intent": "Reference order on a 3 MB two-channel input.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f5_budget_3mb.wav",
+    "primary_asset_file": "boundary_3mb_dense.wav",
+    "role": "probe",
+    "secondary_asset_file": null,
+    "trial_id": "f5_budget_3mb"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "budget_probe",
+    "family": "budget",
+    "group": "budget_ladder",
+    "intent": "Reference order on a 4 MB two-channel input.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f5_budget_4mb.wav",
+    "primary_asset_file": "boundary_4mb_dense.wav",
+    "role": "probe",
+    "secondary_asset_file": null,
+    "trial_id": "f5_budget_4mb"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "budget_probe",
+    "family": "budget",
+    "group": "budget_ladder",
+    "intent": "Reference order on a 8 MB two-channel input.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f5_budget_8mb.wav",
+    "primary_asset_file": "boundary_8mb_dense.wav",
+    "role": "probe",
+    "secondary_asset_file": null,
+    "trial_id": "f5_budget_8mb"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "budget_probe",
+    "family": "budget",
+    "group": "budget_ladder",
+    "intent": "Reference order on a 16 MB two-channel input.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f5_budget_16mb.wav",
+    "primary_asset_file": "boundary_16mb_dense.wav",
+    "role": "probe",
+    "secondary_asset_file": null,
+    "trial_id": "f5_budget_16mb"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "budget_probe",
+    "family": "budget",
+    "group": "budget_ladder",
+    "intent": "Reference order on a 20 MB two-channel input.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f5_budget_20mb.wav",
+    "primary_asset_file": "boundary_20mb_dense.wav",
+    "role": "probe",
+    "secondary_asset_file": null,
+    "trial_id": "f5_budget_20mb"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "near_limit_budget",
+    "family": "near_limit",
+    "group": "near_limit_dense",
+    "intent": "reference order on a near-upload-limit dense input.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f6_near_dense_reference.wav",
+    "primary_asset_file": "near_limit_dense.wav",
+    "role": "probe",
+    "secondary_asset_file": null,
+    "trial_id": "f6_near_dense_reference"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "near_limit_budget",
+    "family": "near_limit",
+    "group": "near_limit_dense",
+    "intent": "clip order on a near-upload-limit dense input.",
+    "operations": [
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f6_near_dense_clip.wav",
+    "primary_asset_file": "near_limit_dense.wav",
+    "role": "probe",
+    "secondary_asset_file": null,
+    "trial_id": "f6_near_dense_clip"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "near_limit_budget",
+    "family": "near_limit",
+    "group": "near_limit_sparse",
+    "intent": "reference order on a near-upload-limit sparse input.",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f6_near_sparse_reference.wav",
+    "primary_asset_file": "near_limit_sparse.wav",
+    "role": "probe",
+    "secondary_asset_file": null,
+    "trial_id": "f6_near_sparse_reference"
+  },
+  {
+    "compare_to": null,
+    "expected_class": "near_limit_budget",
+    "family": "near_limit",
+    "group": "near_limit_sparse",
+    "intent": "clip order on a near-upload-limit sparse input.",
+    "operations": [
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "output_name": "f6_near_sparse_clip.wav",
+    "primary_asset_file": "near_limit_sparse.wav",
+    "role": "probe",
+    "secondary_asset_file": null,
+    "trial_id": "f6_near_sparse_clip"
+  }
+]

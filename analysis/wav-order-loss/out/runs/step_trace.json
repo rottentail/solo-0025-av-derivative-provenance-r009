@@ -1,0 +1,2371 @@
+[
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "gain_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 15,
+        "railed_samples": 0,
+        "zero_samples": 2000
+      }
+    ],
+    "group": "gain_order_dense",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 1
+      }
+    ],
+    "trial_id": "f1_dense_norm_only"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "gain_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 15,
+        "railed_samples": 0,
+        "zero_samples": 2000
+      }
+    ],
+    "group": "gain_order_dense",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16038,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 2
+      }
+    ],
+    "trial_id": "f1_dense_atten_then_norm"
+  },
+  {
+    "clipped_at_any_step": true,
+    "clipping_steps": [
+      1
+    ],
+    "family": "gain_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 30,
+        "railed_samples": 0,
+        "zero_samples": 2000
+      }
+    ],
+    "group": "gain_order_dense",
+    "operations": [
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 10400,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 60,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 2
+      }
+    ],
+    "trial_id": "f1_dense_clip_early"
+  },
+  {
+    "clipped_at_any_step": true,
+    "clipping_steps": [
+      2
+    ],
+    "family": "gain_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 30,
+        "railed_samples": 0,
+        "zero_samples": 2000
+      }
+    ],
+    "group": "gain_order_dense",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "db": 12,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 10720,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 60,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "db": 12,
+          "type": "audio_gain"
+        },
+        "step": 2
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 3
+      }
+    ],
+    "trial_id": "f1_dense_clip_late"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "gain_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 15,
+        "railed_samples": 0,
+        "zero_samples": 2000
+      }
+    ],
+    "group": "gain_order_dense",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16038,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        "step": 2
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 3
+      }
+    ],
+    "trial_id": "f1_dense_net_zero"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "gain_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 14416
+      },
+      {
+        "frames": 16000,
+        "peak": 15,
+        "railed_samples": 0,
+        "zero_samples": 2000
+      }
+    ],
+    "group": "gain_order_sparse",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 1
+      }
+    ],
+    "trial_id": "f1_sparse_norm_only"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "gain_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 14416
+      },
+      {
+        "frames": 16000,
+        "peak": 15,
+        "railed_samples": 0,
+        "zero_samples": 2000
+      }
+    ],
+    "group": "gain_order_sparse",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16038,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 2
+      }
+    ],
+    "trial_id": "f1_sparse_atten_then_norm"
+  },
+  {
+    "clipped_at_any_step": true,
+    "clipping_steps": [
+      1
+    ],
+    "family": "gain_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 14416
+      },
+      {
+        "frames": 16000,
+        "peak": 30,
+        "railed_samples": 0,
+        "zero_samples": 2000
+      }
+    ],
+    "group": "gain_order_sparse",
+    "operations": [
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 584,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 60,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 2
+      }
+    ],
+    "trial_id": "f1_sparse_clip_early"
+  },
+  {
+    "clipped_at_any_step": true,
+    "clipping_steps": [
+      2
+    ],
+    "family": "gain_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 14416
+      },
+      {
+        "frames": 16000,
+        "peak": 30,
+        "railed_samples": 0,
+        "zero_samples": 2000
+      }
+    ],
+    "group": "gain_order_sparse",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "db": 12,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 592,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 60,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "db": 12,
+          "type": "audio_gain"
+        },
+        "step": 2
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 3
+      }
+    ],
+    "trial_id": "f1_sparse_clip_late"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "gain_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 14416
+      },
+      {
+        "frames": 16000,
+        "peak": 15,
+        "railed_samples": 0,
+        "zero_samples": 2000
+      }
+    ],
+    "group": "gain_order_sparse",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16038,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        "step": 2
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 14416
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 3
+      }
+    ],
+    "trial_id": "f1_sparse_net_zero"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "quantization",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 15,
+        "railed_samples": 0,
+        "zero_samples": 2000
+      }
+    ],
+    "group": "quant_dense",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 1
+      }
+    ],
+    "trial_id": "f2_dense_norm_only"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "quantization",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 16,
+        "railed_samples": 0,
+        "zero_samples": 2000
+      }
+    ],
+    "group": "quant_dense",
+    "operations": [
+      {
+        "db": -24,
+        "type": "audio_gain"
+      },
+      {
+        "db": 24,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 2019,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 2,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "db": -24,
+          "type": "audio_gain"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 31999,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 32,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "db": 24,
+          "type": "audio_gain"
+        },
+        "step": 2
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 16,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 3
+      }
+    ],
+    "trial_id": "f2_dense_quiet_2lsb"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "quantization",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 480
+      },
+      {
+        "frames": 16000,
+        "peak": 0,
+        "railed_samples": 0,
+        "zero_samples": 16000
+      }
+    ],
+    "group": "quant_dense",
+    "operations": [
+      {
+        "db": -48,
+        "type": "audio_gain"
+      },
+      {
+        "db": -24,
+        "type": "audio_gain"
+      },
+      {
+        "db": 24,
+        "type": "audio_gain"
+      },
+      {
+        "db": 24,
+        "type": "audio_gain"
+      },
+      {
+        "db": 24,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 127,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 0,
+            "railed_samples": 0,
+            "zero_samples": 16000
+          }
+        ],
+        "operation": {
+          "db": -48,
+          "type": "audio_gain"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 8,
+            "railed_samples": 0,
+            "zero_samples": 480
+          },
+          {
+            "frames": 16000,
+            "peak": 0,
+            "railed_samples": 0,
+            "zero_samples": 16000
+          }
+        ],
+        "operation": {
+          "db": -24,
+          "type": "audio_gain"
+        },
+        "step": 2
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 127,
+            "railed_samples": 0,
+            "zero_samples": 480
+          },
+          {
+            "frames": 16000,
+            "peak": 0,
+            "railed_samples": 0,
+            "zero_samples": 16000
+          }
+        ],
+        "operation": {
+          "db": 24,
+          "type": "audio_gain"
+        },
+        "step": 3
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 2013,
+            "railed_samples": 0,
+            "zero_samples": 480
+          },
+          {
+            "frames": 16000,
+            "peak": 0,
+            "railed_samples": 0,
+            "zero_samples": 16000
+          }
+        ],
+        "operation": {
+          "db": 24,
+          "type": "audio_gain"
+        },
+        "step": 4
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 31904,
+            "railed_samples": 0,
+            "zero_samples": 480
+          },
+          {
+            "frames": 16000,
+            "peak": 0,
+            "railed_samples": 0,
+            "zero_samples": 16000
+          }
+        ],
+        "operation": {
+          "db": 24,
+          "type": "audio_gain"
+        },
+        "step": 5
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 480
+          },
+          {
+            "frames": 16000,
+            "peak": 0,
+            "railed_samples": 0,
+            "zero_samples": 16000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 6
+      }
+    ],
+    "trial_id": "f2_dense_quiet_annihilated"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "mix_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 14239,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 16383,
+        "railed_samples": 0,
+        "zero_samples": 4
+      }
+    ],
+    "group": "mix_weak",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 19452,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 22382,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        "step": 2
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 14239,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 16383,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 3
+      }
+    ],
+    "trial_id": "f3_weak_norm_first"
+  },
+  {
+    "clipped_at_any_step": true,
+    "clipping_steps": [
+      1
+    ],
+    "family": "mix_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16029,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 4
+      }
+    ],
+    "group": "mix_weak",
+    "operations": [
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32059,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 1280,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16029,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 2
+      }
+    ],
+    "trial_id": "f3_weak_mix_first"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "mix_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 14297,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 4
+      }
+    ],
+    "group": "mix_weak",
+    "operations": [
+      {
+        "db": -6,
+        "type": "audio_gain"
+      },
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 6.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 15036,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 15036,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 23567,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 27006,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "primary_weight": 1.0,
+          "secondary_gain": 6.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        "step": 2
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 14297,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 3
+      }
+    ],
+    "trial_id": "f3_weak_balanced"
+  },
+  {
+    "clipped_at_any_step": true,
+    "clipping_steps": [
+      1,
+      2
+    ],
+    "family": "mix_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 4
+      }
+    ],
+    "group": "mix_weak",
+    "operations": [
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 10080,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 10100,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 5600,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 5428,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        "step": 2
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 3
+      }
+    ],
+    "trial_id": "f3_weak_gain_up"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "mix_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 15847,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 12
+      }
+    ],
+    "group": "mix_quiet",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16426,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 16982,
+            "railed_samples": 0,
+            "zero_samples": 12
+          }
+        ],
+        "operation": {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        "step": 2
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 15847,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 12
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 3
+      }
+    ],
+    "trial_id": "f3_quiet_norm_first"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "mix_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16076,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 4
+      }
+    ],
+    "group": "mix_quiet",
+    "operations": [
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 30023,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30598,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16076,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 2
+      }
+    ],
+    "trial_id": "f3_quiet_mix_first"
+  },
+  {
+    "clipped_at_any_step": true,
+    "clipping_steps": [
+      1,
+      2
+    ],
+    "family": "mix_order",
+    "final_channels": [
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 160
+      },
+      {
+        "frames": 16000,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 4
+      }
+    ],
+    "group": "mix_quiet",
+    "operations": [
+      {
+        "db": 6,
+        "type": "audio_gain"
+      },
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30000,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 10080,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 10100,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 5120,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 32768,
+            "railed_samples": 5092,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        "step": 2
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 4
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 3
+      }
+    ],
+    "trial_id": "f3_quiet_boost_secondary"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "trim_order",
+    "final_channels": [
+      {
+        "frames": 800,
+        "peak": 16384,
+        "railed_samples": 0,
+        "zero_samples": 8
+      },
+      {
+        "frames": 800,
+        "peak": 257,
+        "railed_samples": 0,
+        "zero_samples": 100
+      }
+    ],
+    "group": "trim_order",
+    "operations": [
+      {
+        "duration_seconds": 0.1,
+        "start_seconds": 0.45,
+        "type": "media_trim"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 800,
+            "peak": 1910,
+            "railed_samples": 0,
+            "zero_samples": 8
+          },
+          {
+            "frames": 800,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 100
+          }
+        ],
+        "operation": {
+          "duration_seconds": 0.1,
+          "start_seconds": 0.45,
+          "type": "media_trim"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 800,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 8
+          },
+          {
+            "frames": 800,
+            "peak": 257,
+            "railed_samples": 0,
+            "zero_samples": 100
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 2
+      }
+    ],
+    "trial_id": "f4_trim_then_norm"
+  },
+  {
+    "clipped_at_any_step": false,
+    "clipping_steps": [],
+    "family": "trim_order",
+    "final_channels": [
+      {
+        "frames": 800,
+        "peak": 978,
+        "railed_samples": 0,
+        "zero_samples": 8
+      },
+      {
+        "frames": 800,
+        "peak": 15,
+        "railed_samples": 0,
+        "zero_samples": 100
+      }
+    ],
+    "group": "trim_order",
+    "operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "duration_seconds": 0.1,
+        "start_seconds": 0.45,
+        "type": "media_trim"
+      }
+    ],
+    "steps": [
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 32000,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 30,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": "source",
+        "step": 0
+      },
+      {
+        "channels": [
+          {
+            "frames": 16000,
+            "peak": 16384,
+            "railed_samples": 0,
+            "zero_samples": 160
+          },
+          {
+            "frames": 16000,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 2000
+          }
+        ],
+        "operation": {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        "step": 1
+      },
+      {
+        "channels": [
+          {
+            "frames": 800,
+            "peak": 978,
+            "railed_samples": 0,
+            "zero_samples": 8
+          },
+          {
+            "frames": 800,
+            "peak": 15,
+            "railed_samples": 0,
+            "zero_samples": 100
+          }
+        ],
+        "operation": {
+          "duration_seconds": 0.1,
+          "start_seconds": 0.45,
+          "type": "media_trim"
+        },
+        "step": 2
+      }
+    ],
+    "trial_id": "f4_norm_then_trim"
+  }
+]

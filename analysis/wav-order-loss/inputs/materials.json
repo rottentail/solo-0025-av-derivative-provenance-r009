@@ -1,0 +1,272 @@
+{
+  "boundary_16mb": {
+    "channel_peaks": {
+      "left": 32000,
+      "right": 30
+    },
+    "channels": 2,
+    "file_peak": 32000,
+    "format": "wav_pcm_s16le",
+    "frames": 3999989,
+    "path": "inputs/boundary_16mb_dense.wav",
+    "rate": 8000,
+    "seconds": 499.999,
+    "size_bytes": 16000000,
+    "stereo_layout": {
+      "left": "dense",
+      "right": "pilot_1500hz"
+    }
+  },
+  "boundary_1mb": {
+    "channel_peaks": {
+      "left": 32000,
+      "right": 30
+    },
+    "channels": 2,
+    "file_peak": 32000,
+    "format": "wav_pcm_s16le",
+    "frames": 249989,
+    "path": "inputs/boundary_1mb_dense.wav",
+    "rate": 8000,
+    "seconds": 31.249,
+    "size_bytes": 1000000,
+    "stereo_layout": {
+      "left": "dense",
+      "right": "pilot_1500hz"
+    }
+  },
+  "boundary_20mb": {
+    "channel_peaks": {
+      "left": 32000,
+      "right": 30
+    },
+    "channels": 2,
+    "file_peak": 32000,
+    "format": "wav_pcm_s16le",
+    "frames": 4999989,
+    "path": "inputs/boundary_20mb_dense.wav",
+    "rate": 8000,
+    "seconds": 624.999,
+    "size_bytes": 20000000,
+    "stereo_layout": {
+      "left": "dense",
+      "right": "pilot_1500hz"
+    }
+  },
+  "boundary_2mb": {
+    "channel_peaks": {
+      "left": 32000,
+      "right": 30
+    },
+    "channels": 2,
+    "file_peak": 32000,
+    "format": "wav_pcm_s16le",
+    "frames": 499989,
+    "path": "inputs/boundary_2mb_dense.wav",
+    "rate": 8000,
+    "seconds": 62.499,
+    "size_bytes": 2000000,
+    "stereo_layout": {
+      "left": "dense",
+      "right": "pilot_1500hz"
+    }
+  },
+  "boundary_3mb": {
+    "channel_peaks": {
+      "left": 32000,
+      "right": 30
+    },
+    "channels": 2,
+    "file_peak": 32000,
+    "format": "wav_pcm_s16le",
+    "frames": 749989,
+    "path": "inputs/boundary_3mb_dense.wav",
+    "rate": 8000,
+    "seconds": 93.749,
+    "size_bytes": 3000000,
+    "stereo_layout": {
+      "left": "dense",
+      "right": "pilot_1500hz"
+    }
+  },
+  "boundary_4mb": {
+    "channel_peaks": {
+      "left": 32000,
+      "right": 30
+    },
+    "channels": 2,
+    "file_peak": 32000,
+    "format": "wav_pcm_s16le",
+    "frames": 999989,
+    "path": "inputs/boundary_4mb_dense.wav",
+    "rate": 8000,
+    "seconds": 124.999,
+    "size_bytes": 4000000,
+    "stereo_layout": {
+      "left": "dense",
+      "right": "pilot_1500hz"
+    }
+  },
+  "boundary_8mb": {
+    "channel_peaks": {
+      "left": 32000,
+      "right": 30
+    },
+    "channels": 2,
+    "file_peak": 32000,
+    "format": "wav_pcm_s16le",
+    "frames": 1999989,
+    "path": "inputs/boundary_8mb_dense.wav",
+    "rate": 8000,
+    "seconds": 249.999,
+    "size_bytes": 8000000,
+    "stereo_layout": {
+      "left": "dense",
+      "right": "pilot_1500hz"
+    }
+  },
+  "dense": {
+    "channel_peaks": {
+      "left": 32000,
+      "right": 30
+    },
+    "channels": 2,
+    "file_peak": 32000,
+    "format": "wav_pcm_s16le",
+    "frames": 16000,
+    "path": "inputs/dense_stereo_2s.wav",
+    "rate": 8000,
+    "seconds": 2.0,
+    "size_bytes": 64044,
+    "stereo_layout": {
+      "left": "dense",
+      "right": "pilot_1500hz"
+    }
+  },
+  "dynamics": {
+    "channel_peaks": {
+      "left": 32000,
+      "right": 30
+    },
+    "channels": 2,
+    "file_peak": 32000,
+    "format": "wav_pcm_s16le",
+    "frames": 16000,
+    "path": "inputs/dynamics_stereo_2s.wav",
+    "rate": 8000,
+    "seconds": 2.0,
+    "size_bytes": 64044,
+    "stereo_layout": {
+      "left": "dynamics",
+      "right": "pilot_1500hz"
+    }
+  },
+  "near_dense": {
+    "channel_peaks": {
+      "left": 32000,
+      "right": 30
+    },
+    "channels": 2,
+    "file_peak": 32000,
+    "format": "wav_pcm_s16le",
+    "frames": 6249989,
+    "path": "inputs/near_limit_dense.wav",
+    "rate": 8000,
+    "seconds": 781.249,
+    "size_bytes": 25000000,
+    "stereo_layout": {
+      "left": "dense",
+      "right": "pilot_1500hz"
+    }
+  },
+  "near_sparse": {
+    "channel_peaks": {
+      "left": 32000,
+      "right": 30
+    },
+    "channels": 2,
+    "file_peak": 32000,
+    "format": "wav_pcm_s16le",
+    "frames": 6249989,
+    "path": "inputs/near_limit_sparse.wav",
+    "rate": 8000,
+    "seconds": 781.249,
+    "size_bytes": 25000000,
+    "stereo_layout": {
+      "left": "sparse",
+      "right": "pilot_1500hz"
+    }
+  },
+  "quiet": {
+    "channel_peaks": {
+      "left": 600,
+      "right": 600
+    },
+    "channel_tones_hz": {
+      "left": 880.0,
+      "right": 1046.0
+    },
+    "channels": 2,
+    "file_peak": 600,
+    "format": "wav_pcm_s16le",
+    "frames": 16000,
+    "path": "inputs/mix_quiet_secondary.wav",
+    "rate": 8000,
+    "seconds": 2.0,
+    "size_bytes": 64044
+  },
+  "sparse": {
+    "channel_peaks": {
+      "left": 32000,
+      "right": 30
+    },
+    "channels": 2,
+    "file_peak": 32000,
+    "format": "wav_pcm_s16le",
+    "frames": 16000,
+    "path": "inputs/sparse_transient_stereo_2s.wav",
+    "rate": 8000,
+    "seconds": 2.0,
+    "size_bytes": 64044,
+    "stereo_layout": {
+      "left": "sparse",
+      "right": "pilot_1500hz"
+    }
+  },
+  "strong": {
+    "channel_peaks": {
+      "left": 30000,
+      "right": 30000
+    },
+    "channel_tones_hz": {
+      "left": 440.0,
+      "right": 587.0
+    },
+    "channels": 2,
+    "file_peak": 30000,
+    "format": "wav_pcm_s16le",
+    "frames": 16000,
+    "path": "inputs/mix_strong_primary.wav",
+    "rate": 8000,
+    "seconds": 2.0,
+    "size_bytes": 64044
+  },
+  "weak": {
+    "channel_peaks": {
+      "left": 6000,
+      "right": 6000
+    },
+    "channel_tones_hz": {
+      "left": 880.0,
+      "right": 1046.0
+    },
+    "channels": 2,
+    "file_peak": 6000,
+    "format": "wav_pcm_s16le",
+    "frames": 16000,
+    "path": "inputs/mix_weak_secondary.wav",
+    "rate": 8000,
+    "seconds": 2.0,
+    "size_bytes": 64044
+  }
+}

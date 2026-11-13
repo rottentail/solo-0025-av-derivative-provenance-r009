@@ -1,0 +1,28 @@
+{
+  "family": "gain_order",
+  "integrity_result": "verified",
+  "media_file": "f1_dense_norm_only.wav",
+  "media_sha256": "df5d481c2733024524b00c37a65055658c73454b9bab7b0f712b2e8f5233d66f",
+  "normalized_operations": [
+    {
+      "target_peak": 0.5,
+      "type": "audio_normalize"
+    }
+  ],
+  "output_asset_id": "asset_f67efc03bcd54e859019caa33e7e4cce",
+  "plan_digest": "dd60be0bc16d91c019649d13d5dd6c84d196050996564288a9dc196cf81dd990",
+  "primary_asset_id": "asset_3359dc9fbbce440199a9b461d930828b",
+  "primary_asset_sha256": "09f39db187ec3a302125d82fe89ce9535f41bb0b10e2f1b57558b45fd8b57b16",
+  "recorded_plan_digest": "dd60be0bc16d91c019649d13d5dd6c84d196050996564288a9dc196cf81dd990",
+  "rendition_id": "rendition_410db4a0f38b40fcb38e4f02cb205cdd",
+  "requested_operations": [
+    {
+      "target_peak": 0.5,
+      "type": "audio_normalize"
+    }
+  ],
+  "rss_hwm_mib": 24.48,
+  "secondary_asset_id": null,
+  "secondary_asset_sha256": null,
+  "trial_id": "f1_dense_norm_only"
+}

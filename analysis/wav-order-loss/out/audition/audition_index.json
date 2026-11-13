@@ -1,0 +1,244 @@
+[
+  {
+    "available": true,
+    "channel": "left",
+    "files": {
+      "difference_plus24dB": "difference_plus24dB.wav",
+      "lossy": "lossy.wav",
+      "lossy_channel0": "lossy_channel0.wav",
+      "lossy_mono_folddown": "lossy_mono_folddown.wav",
+      "reference": "reference.wav",
+      "reference_channel0": "reference_channel0.wav"
+    },
+    "lossy_operations": [
+      {
+        "db": 6.0,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "lossy_sha256": "12355590e59147d75caa030ee79eef0cad0635742165b6a46ddf596e36534338",
+    "lossy_trial": "f1_dense_clip_early",
+    "measured": {
+      "lossy_peak": 16384,
+      "reference_peak": 16384,
+      "snr_db": 12.892
+    },
+    "reference_operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "reference_sha256": "df5d481c2733024524b00c37a65055658c73454b9bab7b0f712b2e8f5233d66f",
+    "reference_trial": "f1_dense_norm_only",
+    "set_id": "F1_dense_clip_vs_reference",
+    "title": "F1 dense: same final peak, clipped vs clean",
+    "what_to_listen_for": "The clipped take flattens the tone into a square-like buzz while its peak is still 16384."
+  },
+  {
+    "available": true,
+    "channel": "left",
+    "files": {
+      "difference_plus24dB": "difference_plus24dB.wav",
+      "lossy": "lossy.wav",
+      "lossy_channel0": "lossy_channel0.wav",
+      "lossy_mono_folddown": "lossy_mono_folddown.wav",
+      "reference": "reference.wav",
+      "reference_channel0": "reference_channel0.wav"
+    },
+    "lossy_operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "db": 12.0,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "lossy_sha256": "eda87bfd39bd9c6417a902238f1fa7b1fe869d8a1ecdb3d5d29afdef09a1d0b2",
+    "lossy_trial": "f1_sparse_clip_late",
+    "measured": {
+      "lossy_peak": 16384,
+      "reference_peak": 16384,
+      "snr_db": 12.188
+    },
+    "reference_operations": [
+      {
+        "db": -6.0,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "reference_sha256": "a32ae91e9d791975ebc69cc2d429480303555cb0f98b9109d4ea50d65137ba53",
+    "reference_trial": "f1_sparse_atten_then_norm",
+    "set_id": "F1_sparse_early_vs_late_clip",
+    "title": "F1 sparse: transient clipping before vs after normalize",
+    "what_to_listen_for": "Both are deviations from the clean atten-then-norm reference; the later-clipped take has smeared transients."
+  },
+  {
+    "available": true,
+    "channel": "right",
+    "files": {
+      "difference_plus24dB": "difference_plus24dB.wav",
+      "lossy": "lossy.wav",
+      "lossy_channel1": "lossy_channel1.wav",
+      "lossy_mono_folddown": "lossy_mono_folddown.wav",
+      "reference": "reference.wav",
+      "reference_channel1": "reference_channel1.wav"
+    },
+    "lossy_operations": [
+      {
+        "db": -48.0,
+        "type": "audio_gain"
+      },
+      {
+        "db": -24.0,
+        "type": "audio_gain"
+      },
+      {
+        "db": 24.0,
+        "type": "audio_gain"
+      },
+      {
+        "db": 24.0,
+        "type": "audio_gain"
+      },
+      {
+        "db": 24.0,
+        "type": "audio_gain"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "lossy_sha256": "f2629e690dfe9374473e388aeb0827e878a3d13564c05fe1d6cb06fe9b6ebb32",
+    "lossy_trial": "f2_dense_quiet_annihilated",
+    "measured": {
+      "lossy_peak": 0,
+      "reference_peak": 15,
+      "snr_db": null
+    },
+    "reference_operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "reference_sha256": "df5d481c2733024524b00c37a65055658c73454b9bab7b0f712b2e8f5233d66f",
+    "reference_trial": "f2_dense_norm_only",
+    "set_id": "F2_quiet_channel_annihilated",
+    "title": "F2 dense: quiet right-channel pilot deleted while left survives",
+    "what_to_listen_for": "The right channel goes to digital silence; a mono fold-down of the pair does not reveal it."
+  },
+  {
+    "available": true,
+    "channel": "right",
+    "files": {
+      "difference_plus24dB": "difference_plus24dB.wav",
+      "lossy": "lossy.wav",
+      "lossy_channel1": "lossy_channel1.wav",
+      "lossy_mono_folddown": "lossy_mono_folddown.wav",
+      "reference": "reference.wav",
+      "reference_channel1": "reference_channel1.wav"
+    },
+    "lossy_operations": [
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "lossy_sha256": "60b8930af6bd6b5efc06735586ba363f227840db5302f844d72ab8bf8857ff56",
+    "lossy_trial": "f3_weak_mix_first",
+    "measured": {
+      "lossy_peak": 16384,
+      "reference_peak": 16383,
+      "snr_db": 15.79
+    },
+    "reference_operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "primary_weight": 1.0,
+        "secondary_gain": 0.0,
+        "secondary_weight": 1.0,
+        "type": "audio_mix"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "reference_sha256": "35475c59c0427e3cd5088f20fc12357ba249a426239b5bfbd5492edf5c4856fe",
+    "reference_trial": "f3_weak_norm_first",
+    "set_id": "F3_mix_clip_vs_norm_first",
+    "title": "F3 weak mix: mix-first clip vs normalize-first reference",
+    "what_to_listen_for": "Both end at peak 16384 on the right channel; the mix-first take is still 15.8 dB SNR, so equal peak does not mean equal sound."
+  },
+  {
+    "available": true,
+    "channel": "left",
+    "files": {
+      "difference_plus24dB": "difference_plus24dB.wav",
+      "lossy": "lossy.wav",
+      "lossy_channel0": "lossy_channel0.wav",
+      "lossy_mono_folddown": "lossy_mono_folddown.wav",
+      "reference": "reference.wav",
+      "reference_channel0": "reference_channel0.wav"
+    },
+    "lossy_operations": [
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      },
+      {
+        "duration_seconds": 0.1,
+        "start_seconds": 0.45,
+        "type": "media_trim"
+      }
+    ],
+    "lossy_sha256": "24f886d22828700e87c324205d2d474dd884e85360fd6a2910a566674a8f2994",
+    "lossy_trial": "f4_norm_then_trim",
+    "measured": {
+      "lossy_peak": 978,
+      "reference_peak": 16384,
+      "snr_db": 67.993
+    },
+    "reference_operations": [
+      {
+        "duration_seconds": 0.1,
+        "start_seconds": 0.45,
+        "type": "media_trim"
+      },
+      {
+        "target_peak": 0.5,
+        "type": "audio_normalize"
+      }
+    ],
+    "reference_sha256": "e76e6728ea74b6c5619b922ccdaa2fac9c6993ee00a048377073c047c7c1038b",
+    "reference_trial": "f4_trim_then_norm",
+    "set_id": "F4_trim_order_level",
+    "title": "F4 dynamics: normalize-then-trim captures 16.7x less level",
+    "what_to_listen_for": "The same window ends at peak 16384 or 978 depending only on operation order."
+  }
+]

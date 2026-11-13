@@ -1,0 +1,36 @@
+{
+  "family": "gain_order",
+  "integrity_result": "verified",
+  "media_file": "f1_sparse_atten_then_norm.wav",
+  "media_sha256": "a32ae91e9d791975ebc69cc2d429480303555cb0f98b9109d4ea50d65137ba53",
+  "normalized_operations": [
+    {
+      "db": -6.0,
+      "type": "audio_gain"
+    },
+    {
+      "target_peak": 0.5,
+      "type": "audio_normalize"
+    }
+  ],
+  "output_asset_id": "asset_1d731d8686174061ba5bb1467fa68fb0",
+  "plan_digest": "6f1aad09429cb0d2bbd0a4adb3df8656ba0c967698ffd4c94964716717099bb4",
+  "primary_asset_id": "asset_155bb90a78754bb0a5848fd3f69a41ba",
+  "primary_asset_sha256": "24fa19fea72232e24487d799b1caa4d6ef45e75c39ee7cbbeacdc882122edd57",
+  "recorded_plan_digest": "6f1aad09429cb0d2bbd0a4adb3df8656ba0c967698ffd4c94964716717099bb4",
+  "rendition_id": "rendition_cc7c1f1609d34dbd83b88d3e50e2927e",
+  "requested_operations": [
+    {
+      "db": -6,
+      "type": "audio_gain"
+    },
+    {
+      "target_peak": 0.5,
+      "type": "audio_normalize"
+    }
+  ],
+  "rss_hwm_mib": 23.54,
+  "secondary_asset_id": null,
+  "secondary_asset_sha256": null,
+  "trial_id": "f1_sparse_atten_then_norm"
+}

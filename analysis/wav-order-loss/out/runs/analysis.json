@@ -1,0 +1,5518 @@
+{
+  "channel_distinctness": {
+    "f1_dense_atten_then_norm": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.995,
+      "differing_samples": 15920,
+      "left_rms": 11584.904,
+      "right_rms": 10.788,
+      "rms_ratio_left_over_right": 1073.8969
+    },
+    "f1_dense_clip_early": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.995,
+      "differing_samples": 15920,
+      "left_rms": 14431.735,
+      "right_rms": 21.19,
+      "rms_ratio_left_over_right": 681.0757
+    },
+    "f1_dense_clip_late": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.995,
+      "differing_samples": 15920,
+      "left_rms": 14477.734,
+      "right_rms": 21.575,
+      "rms_ratio_left_over_right": 671.0281
+    },
+    "f1_dense_net_zero": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.995,
+      "differing_samples": 15920,
+      "left_rms": 11584.902,
+      "right_rms": 10.788,
+      "rms_ratio_left_over_right": 1073.8967
+    },
+    "f1_dense_norm_only": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.995,
+      "differing_samples": 15920,
+      "left_rms": 11584.953,
+      "right_rms": 10.788,
+      "rms_ratio_left_over_right": 1073.9014
+    },
+    "f1_sparse_atten_then_norm": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.887,
+      "differing_samples": 14192,
+      "left_rms": 2635.822,
+      "right_rms": 10.788,
+      "rms_ratio_left_over_right": 244.3354
+    },
+    "f1_sparse_clip_early": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.887,
+      "differing_samples": 14192,
+      "left_rms": 3780.479,
+      "right_rms": 21.19,
+      "rms_ratio_left_over_right": 178.4119
+    },
+    "f1_sparse_clip_late": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.887,
+      "differing_samples": 14192,
+      "left_rms": 3805.685,
+      "right_rms": 21.575,
+      "rms_ratio_left_over_right": 176.3896
+    },
+    "f1_sparse_net_zero": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.887,
+      "differing_samples": 14192,
+      "left_rms": 2635.818,
+      "right_rms": 10.788,
+      "rms_ratio_left_over_right": 244.3349
+    },
+    "f1_sparse_norm_only": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.887,
+      "differing_samples": 14192,
+      "left_rms": 2635.831,
+      "right_rms": 10.788,
+      "rms_ratio_left_over_right": 244.3362
+    },
+    "f2_dense_norm_only": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.995,
+      "differing_samples": 15920,
+      "left_rms": 11584.953,
+      "right_rms": 10.788,
+      "rms_ratio_left_over_right": 1073.9014
+    },
+    "f2_dense_quiet_2lsb": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.995,
+      "differing_samples": 15920,
+      "left_rms": 11585.054,
+      "right_rms": 11.314,
+      "rms_ratio_left_over_right": 1023.9838
+    },
+    "f2_dense_quiet_annihilated": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.97,
+      "differing_samples": 15520,
+      "left_rms": 11636.624,
+      "right_rms": 0.0,
+      "rms_ratio_left_over_right": null
+    },
+    "f3_quiet_boost_secondary": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.94775,
+      "differing_samples": 15164,
+      "left_rms": 14205.62,
+      "right_rms": 14213.493,
+      "rms_ratio_left_over_right": 0.9994
+    },
+    "f3_quiet_mix_first": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.99975,
+      "differing_samples": 15996,
+      "left_rms": 11360.746,
+      "right_rms": 11360.744,
+      "rms_ratio_left_over_right": 1.0
+    },
+    "f3_quiet_norm_first": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.99975,
+      "differing_samples": 15996,
+      "left_rms": 11184.097,
+      "right_rms": 11184.089,
+      "rms_ratio_left_over_right": 1.0
+    },
+    "f3_weak_balanced": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.99975,
+      "differing_samples": 15996,
+      "left_rms": 8244.777,
+      "right_rms": 8244.69,
+      "rms_ratio_left_over_right": 1.0
+    },
+    "f3_weak_gain_up": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.94,
+      "differing_samples": 15040,
+      "left_rms": 13542.353,
+      "right_rms": 13650.697,
+      "rms_ratio_left_over_right": 0.9921
+    },
+    "f3_weak_mix_first": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.99975,
+      "differing_samples": 15996,
+      "left_rms": 10816.432,
+      "right_rms": 10716.201,
+      "rms_ratio_left_over_right": 1.0094
+    },
+    "f3_weak_norm_first": {
+      "compared_frames": 16000,
+      "differing_fraction": 0.99975,
+      "differing_samples": 15996,
+      "left_rms": 9030.879,
+      "right_rms": 9030.855,
+      "rms_ratio_left_over_right": 1.0
+    },
+    "f4_norm_then_trim": {
+      "compared_frames": 800,
+      "differing_fraction": 0.995,
+      "differing_samples": 796,
+      "left_rms": 691.553,
+      "right_rms": 10.788,
+      "rms_ratio_left_over_right": 64.1055
+    },
+    "f4_trim_then_norm": {
+      "compared_frames": 800,
+      "differing_fraction": 0.995,
+      "differing_samples": 796,
+      "left_rms": 11585.965,
+      "right_rms": 181.563,
+      "rms_ratio_left_over_right": 63.8124
+    },
+    "f5_budget_1mb": {
+      "compared_frames": 249989,
+      "differing_fraction": 0.995,
+      "differing_samples": 248739,
+      "left_rms": 11584.926,
+      "right_rms": 10.788,
+      "rms_ratio_left_over_right": 1073.899
+    }
+  },
+  "comparisons": [
+    {
+      "channels": [
+        {
+          "best_fit_scale": 0.999996,
+          "candidate_metrics": {
+            "crest_factor": 1.4143,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11584.904,
+            "rms_dbfs": -9.031,
+            "zero_samples": 160
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.12,
+          "differing_samples": 1920,
+          "max_abs_residual": 1.069,
+          "reference_metrics": {
+            "crest_factor": 1.4142,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11584.953,
+            "rms_dbfs": -9.031,
+            "zero_samples": 160
+          },
+          "rms_residual": 0.343,
+          "snr_db": 90.574
+        },
+        {
+          "best_fit_scale": 1.0,
+          "candidate_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.0,
+          "differing_samples": 0,
+          "max_abs_residual": 0.0,
+          "reference_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "rms_residual": 0.0,
+          "snr_db": null
+        }
+      ],
+      "expected_class": "reference_no_clip",
+      "family": "gain_order",
+      "group": "gain_order_dense",
+      "intent": "Attenuate 6 dB, then normalize: never clips.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 0.517,
+        "mono_snr_db": 90.551,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f1_dense_norm_only",
+      "role": "A_reference",
+      "trial_id": "f1_dense_atten_then_norm"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 1.214913,
+          "candidate_metrics": {
+            "crest_factor": 1.1353,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 14431.735,
+            "rms_dbfs": -7.122,
+            "zero_samples": 160
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.99,
+          "differing_samples": 15840,
+          "max_abs_residual": 6117.625,
+          "reference_metrics": {
+            "crest_factor": 1.4142,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11584.953,
+            "rms_dbfs": -9.031,
+            "zero_samples": 160
+          },
+          "rms_residual": 3190.217,
+          "snr_db": 12.892
+        },
+        {
+          "best_fit_scale": 1.96348,
+          "candidate_metrics": {
+            "crest_factor": 1.4158,
+            "frames": 16000,
+            "peak": 30,
+            "peak_fraction_of_full_scale": 0.000916,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 21.19,
+            "rms_dbfs": -63.786,
+            "zero_samples": 2000
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.875,
+          "differing_samples": 14000,
+          "max_abs_residual": 0.781,
+          "reference_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "rms_residual": 0.587,
+          "snr_db": 31.144
+        }
+      ],
+      "expected_class": "clipping_early",
+      "family": "gain_order",
+      "group": "gain_order_dense",
+      "intent": "Boost 6 dB first: 32000 peaks become ~63840 and clip hard, then normalize.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 3064.245,
+        "mono_snr_db": 12.892,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f1_dense_norm_only",
+      "role": "B_lossy",
+      "trial_id": "f1_dense_clip_early"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 1.21743,
+          "candidate_metrics": {
+            "crest_factor": 1.1317,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 14477.734,
+            "rms_dbfs": -7.095,
+            "zero_samples": 160
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.99,
+          "differing_samples": 15840,
+          "max_abs_residual": 6230.637,
+          "reference_metrics": {
+            "crest_factor": 1.4142,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11584.953,
+            "rms_dbfs": -9.031,
+            "zero_samples": 160
+          },
+          "rms_residual": 3268.908,
+          "snr_db": 12.699
+        },
+        {
+          "best_fit_scale": 2.0,
+          "candidate_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 30,
+            "peak_fraction_of_full_scale": 0.000916,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 21.575,
+            "rms_dbfs": -63.63,
+            "zero_samples": 2000
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.0,
+          "differing_samples": 0,
+          "max_abs_residual": 0.0,
+          "reference_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "rms_residual": 0.0,
+          "snr_db": null
+        }
+      ],
+      "expected_class": "clipping_late",
+      "family": "gain_order",
+      "group": "gain_order_dense",
+      "intent": "Normalize, boost 12 dB so the chain clips, then normalize again; flat tops persist.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 3120.739,
+        "mono_snr_db": 12.699,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f1_dense_norm_only",
+      "role": "B_lossy",
+      "trial_id": "f1_dense_clip_late"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 0.999996,
+          "candidate_metrics": {
+            "crest_factor": 1.4143,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11584.902,
+            "rms_dbfs": -9.031,
+            "zero_samples": 160
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.18,
+          "differing_samples": 2880,
+          "max_abs_residual": 1.072,
+          "reference_metrics": {
+            "crest_factor": 1.4142,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11584.953,
+            "rms_dbfs": -9.031,
+            "zero_samples": 160
+          },
+          "rms_residual": 0.421,
+          "snr_db": 88.789
+        },
+        {
+          "best_fit_scale": 1.0,
+          "candidate_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.0,
+          "differing_samples": 0,
+          "max_abs_residual": 0.0,
+          "reference_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "rms_residual": 0.0,
+          "snr_db": null
+        }
+      ],
+      "expected_class": "quantization_roundtrip",
+      "family": "gain_order",
+      "group": "gain_order_dense",
+      "intent": "-6 then +6 dB: level restored but every sample rounded twice.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 0.534,
+        "mono_snr_db": 88.788,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f1_dense_norm_only",
+      "role": "B_lossy",
+      "trial_id": "f1_dense_net_zero"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 0.999997,
+          "candidate_metrics": {
+            "crest_factor": 6.2159,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 2635.822,
+            "rms_dbfs": -21.89,
+            "zero_samples": 14416
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.031,
+          "differing_samples": 496,
+          "max_abs_residual": 1.053,
+          "reference_metrics": {
+            "crest_factor": 6.2159,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 2635.831,
+            "rms_dbfs": -21.89,
+            "zero_samples": 14416
+          },
+          "rms_residual": 0.176,
+          "snr_db": 83.516
+        },
+        {
+          "best_fit_scale": 1.0,
+          "candidate_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.0,
+          "differing_samples": 0,
+          "max_abs_residual": 0.0,
+          "reference_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "rms_residual": 0.0,
+          "snr_db": null
+        }
+      ],
+      "expected_class": "reference_no_clip",
+      "family": "gain_order",
+      "group": "gain_order_sparse",
+      "intent": "Attenuate 6 dB, then normalize: never clips.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 0.539,
+        "mono_snr_db": 83.513,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f1_sparse_norm_only",
+      "role": "A_reference",
+      "trial_id": "f1_sparse_atten_then_norm"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 1.395102,
+          "candidate_metrics": {
+            "crest_factor": 4.3338,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 3780.479,
+            "rms_dbfs": -18.758,
+            "zero_samples": 14416
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.099,
+          "differing_samples": 1584,
+          "max_abs_residual": 6474.352,
+          "reference_metrics": {
+            "crest_factor": 6.2159,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 2635.831,
+            "rms_dbfs": -21.89,
+            "zero_samples": 14416
+          },
+          "rms_residual": 877.4,
+          "snr_db": 12.447
+        },
+        {
+          "best_fit_scale": 1.96348,
+          "candidate_metrics": {
+            "crest_factor": 1.4158,
+            "frames": 16000,
+            "peak": 30,
+            "peak_fraction_of_full_scale": 0.000916,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 21.19,
+            "rms_dbfs": -63.786,
+            "zero_samples": 2000
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.875,
+          "differing_samples": 14000,
+          "max_abs_residual": 0.781,
+          "reference_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "rms_residual": 0.587,
+          "snr_db": 31.144
+        }
+      ],
+      "expected_class": "clipping_early",
+      "family": "gain_order",
+      "group": "gain_order_sparse",
+      "intent": "Boost 6 dB first: 32000 peaks become ~63840 and clip hard, then normalize.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 3241.53,
+        "mono_snr_db": 12.446,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f1_sparse_norm_only",
+      "role": "B_lossy",
+      "trial_id": "f1_sparse_clip_early"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 1.40209,
+          "candidate_metrics": {
+            "crest_factor": 4.3051,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 3805.685,
+            "rms_dbfs": -18.7,
+            "zero_samples": 14416
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.099,
+          "differing_samples": 1584,
+          "max_abs_residual": 6588.838,
+          "reference_metrics": {
+            "crest_factor": 6.2159,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 2635.831,
+            "rms_dbfs": -21.89,
+            "zero_samples": 14416
+          },
+          "rms_residual": 908.433,
+          "snr_db": 12.188
+        },
+        {
+          "best_fit_scale": 2.0,
+          "candidate_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 30,
+            "peak_fraction_of_full_scale": 0.000916,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 21.575,
+            "rms_dbfs": -63.63,
+            "zero_samples": 2000
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.0,
+          "differing_samples": 0,
+          "max_abs_residual": 0.0,
+          "reference_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "rms_residual": 0.0,
+          "snr_db": null
+        }
+      ],
+      "expected_class": "clipping_late",
+      "family": "gain_order",
+      "group": "gain_order_sparse",
+      "intent": "Normalize, boost 12 dB so the chain clips, then normalize again; flat tops persist.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 3298.741,
+        "mono_snr_db": 12.188,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f1_sparse_norm_only",
+      "role": "B_lossy",
+      "trial_id": "f1_sparse_clip_late"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 0.999995,
+          "candidate_metrics": {
+            "crest_factor": 6.2159,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 2635.818,
+            "rms_dbfs": -21.89,
+            "zero_samples": 14416
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.0295,
+          "differing_samples": 472,
+          "max_abs_residual": 1.077,
+          "reference_metrics": {
+            "crest_factor": 6.2159,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 2635.831,
+            "rms_dbfs": -21.89,
+            "zero_samples": 14416
+          },
+          "rms_residual": 0.171,
+          "snr_db": 83.747
+        },
+        {
+          "best_fit_scale": 1.0,
+          "candidate_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.0,
+          "differing_samples": 0,
+          "max_abs_residual": 0.0,
+          "reference_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "rms_residual": 0.0,
+          "snr_db": null
+        }
+      ],
+      "expected_class": "quantization_roundtrip",
+      "family": "gain_order",
+      "group": "gain_order_sparse",
+      "intent": "-6 then +6 dB: level restored but every sample rounded twice.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 0.566,
+        "mono_snr_db": 83.733,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f1_sparse_norm_only",
+      "role": "B_lossy",
+      "trial_id": "f1_sparse_net_zero"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 1.000009,
+          "candidate_metrics": {
+            "crest_factor": 1.4142,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11585.054,
+            "rms_dbfs": -9.031,
+            "zero_samples": 160
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.88,
+          "differing_samples": 14080,
+          "max_abs_residual": 4.115,
+          "reference_metrics": {
+            "crest_factor": 1.4142,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11584.953,
+            "rms_dbfs": -9.031,
+            "zero_samples": 160
+          },
+          "rms_residual": 2.193,
+          "snr_db": 74.457
+        },
+        {
+          "best_fit_scale": 1.031149,
+          "candidate_metrics": {
+            "crest_factor": 1.4142,
+            "frames": 16000,
+            "peak": 16,
+            "peak_fraction_of_full_scale": 0.000488,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11.314,
+            "rms_dbfs": -69.237,
+            "zero_samples": 2000
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.875,
+          "differing_samples": 14000,
+          "max_abs_residual": 3.343,
+          "reference_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "rms_residual": 2.064,
+          "snr_db": 14.629
+        }
+      ],
+      "expected_class": "quiet_detail_coarse",
+      "family": "quantization",
+      "group": "quant_dense",
+      "intent": "-24 then +24 dB: the quiet right pilot is reduced to ~2 LSB before being restored.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 3.636,
+        "mono_snr_db": 71.639,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f2_dense_norm_only",
+      "role": "B_lossy",
+      "trial_id": "f2_dense_quiet_2lsb"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 1.00323,
+          "candidate_metrics": {
+            "crest_factor": 1.408,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11636.624,
+            "rms_dbfs": -8.992,
+            "zero_samples": 480
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.99,
+          "differing_samples": 15840,
+          "max_abs_residual": 1062.233,
+          "reference_metrics": {
+            "crest_factor": 1.4142,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11584.953,
+            "rms_dbfs": -9.031,
+            "zero_samples": 160
+          },
+          "rms_residual": 575.629,
+          "snr_db": 26.103
+        },
+        {
+          "best_fit_scale": 0.0,
+          "candidate_metrics": {
+            "crest_factor": null,
+            "frames": 16000,
+            "peak": 0,
+            "peak_fraction_of_full_scale": 0.0,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 0.0,
+            "rms_dbfs": null,
+            "zero_samples": 16000
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.0,
+          "differing_samples": 0,
+          "max_abs_residual": 0.0,
+          "reference_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 16000,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 2000
+          },
+          "rms_residual": 0.0,
+          "snr_db": null
+        }
+      ],
+      "expected_class": "quiet_detail_annihilated",
+      "family": "quantization",
+      "group": "quant_dense",
+      "intent": "-48, -24, +24, +24, +24 dB (net 0): the quiet right pilot rounds to zero and stays zero.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 538.612,
+        "mono_snr_db": 26.101,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f2_dense_norm_only",
+      "role": "B_lossy",
+      "trial_id": "f2_dense_quiet_annihilated"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 1.183606,
+          "candidate_metrics": {
+            "crest_factor": 1.4819,
+            "frames": 16000,
+            "peak": 16029,
+            "peak_fraction_of_full_scale": 0.489181,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10816.432,
+            "rms_dbfs": -9.627,
+            "zero_samples": 160
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.99,
+          "differing_samples": 15840,
+          "max_abs_residual": 2785.438,
+          "reference_metrics": {
+            "crest_factor": 1.5767,
+            "frames": 16000,
+            "peak": 14239,
+            "peak_fraction_of_full_scale": 0.434553,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 9030.879,
+            "rms_dbfs": -11.194,
+            "zero_samples": 160
+          },
+          "rms_residual": 1655.444,
+          "snr_db": 16.2
+        },
+        {
+          "best_fit_scale": 1.17128,
+          "candidate_metrics": {
+            "crest_factor": 1.5289,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10716.201,
+            "rms_dbfs": -9.708,
+            "zero_samples": 4
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.99975,
+          "differing_samples": 15996,
+          "max_abs_residual": 3096.27,
+          "reference_metrics": {
+            "crest_factor": 1.8141,
+            "frames": 16000,
+            "peak": 16383,
+            "peak_fraction_of_full_scale": 0.499985,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 9030.855,
+            "rms_dbfs": -11.194,
+            "zero_samples": 4
+          },
+          "rms_residual": 1717.567,
+          "snr_db": 15.79
+        }
+      ],
+      "expected_class": "mix_clipping",
+      "family": "mix_order",
+      "group": "mix_weak",
+      "intent": "Mix first: 30000 + 6000 exceeds full scale and clips before normalizing.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 2907.297,
+        "mono_snr_db": 15.988,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f3_weak_norm_first",
+      "role": "B_lossy",
+      "trial_id": "f3_weak_mix_first"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 1.348045,
+          "candidate_metrics": {
+            "crest_factor": 1.2098,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 13542.353,
+            "rms_dbfs": -7.675,
+            "zero_samples": 160
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.99,
+          "differing_samples": 15840,
+          "max_abs_residual": 15785.922,
+          "reference_metrics": {
+            "crest_factor": 1.7341,
+            "frames": 16000,
+            "peak": 14297,
+            "peak_fraction_of_full_scale": 0.436323,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 8244.777,
+            "rms_dbfs": -11.985,
+            "zero_samples": 160
+          },
+          "rms_residual": 7737.373,
+          "snr_db": 3.146
+        },
+        {
+          "best_fit_scale": 1.363093,
+          "candidate_metrics": {
+            "crest_factor": 1.2002,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 13650.697,
+            "rms_dbfs": -7.606,
+            "zero_samples": 4
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.999625,
+          "differing_samples": 15994,
+          "max_abs_residual": 16425.702,
+          "reference_metrics": {
+            "crest_factor": 1.9872,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 8244.69,
+            "rms_dbfs": -11.985,
+            "zero_samples": 4
+          },
+          "rms_residual": 7748.722,
+          "snr_db": 3.229
+        }
+      ],
+      "expected_class": "mix_clipping",
+      "family": "mix_order",
+      "group": "mix_weak",
+      "intent": "Boost the primary before mixing: primary peaks clip before the sum is normalized.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 15915.692,
+        "mono_snr_db": 3.187,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f3_weak_balanced",
+      "role": "B_lossy",
+      "trial_id": "f3_weak_gain_up"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 1.015655,
+          "candidate_metrics": {
+            "crest_factor": 1.415,
+            "frames": 16000,
+            "peak": 16076,
+            "peak_fraction_of_full_scale": 0.490616,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11360.746,
+            "rms_dbfs": -9.201,
+            "zero_samples": 160
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.99,
+          "differing_samples": 15840,
+          "max_abs_residual": 273.675,
+          "reference_metrics": {
+            "crest_factor": 1.4169,
+            "frames": 16000,
+            "peak": 15847,
+            "peak_fraction_of_full_scale": 0.483627,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11184.097,
+            "rms_dbfs": -9.337,
+            "zero_samples": 160
+          },
+          "rms_residual": 188.606,
+          "snr_db": 35.596
+        },
+        {
+          "best_fit_scale": 1.015655,
+          "candidate_metrics": {
+            "crest_factor": 1.4422,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11360.744,
+            "rms_dbfs": -9.201,
+            "zero_samples": 4
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.99875,
+          "differing_samples": 15980,
+          "max_abs_residual": 277.075,
+          "reference_metrics": {
+            "crest_factor": 1.4649,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11184.089,
+            "rms_dbfs": -9.337,
+            "zero_samples": 12
+          },
+          "rms_residual": 188.678,
+          "snr_db": 35.592
+        }
+      ],
+      "expected_class": "reference_no_clip",
+      "family": "mix_order",
+      "group": "mix_quiet",
+      "intent": "Mix first with the quiet secondary; the sum stays below full scale, so no clipping here.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 273.728,
+        "mono_snr_db": 35.594,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f3_quiet_norm_first",
+      "role": "B_lossy",
+      "trial_id": "f3_quiet_mix_first"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 1.242505,
+          "candidate_metrics": {
+            "crest_factor": 1.1533,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 14205.62,
+            "rms_dbfs": -7.26,
+            "zero_samples": 160
+          },
+          "channel": "left",
+          "compared_frames": 16000,
+          "differing_fraction": 0.99,
+          "differing_samples": 15840,
+          "max_abs_residual": 5892.053,
+          "reference_metrics": {
+            "crest_factor": 1.4169,
+            "frames": 16000,
+            "peak": 15847,
+            "peak_fraction_of_full_scale": 0.483627,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11184.097,
+            "rms_dbfs": -9.337,
+            "zero_samples": 160
+          },
+          "rms_residual": 2948.303,
+          "snr_db": 13.467
+        },
+        {
+          "best_fit_scale": 1.24285,
+          "candidate_metrics": {
+            "crest_factor": 1.1527,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 14213.493,
+            "rms_dbfs": -7.255,
+            "zero_samples": 4
+          },
+          "channel": "right",
+          "compared_frames": 16000,
+          "differing_fraction": 0.999625,
+          "differing_samples": 15994,
+          "max_abs_residual": 6028.858,
+          "reference_metrics": {
+            "crest_factor": 1.4649,
+            "frames": 16000,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11184.089,
+            "rms_dbfs": -9.337,
+            "zero_samples": 12
+          },
+          "rms_residual": 2968.06,
+          "snr_db": 13.411
+        }
+      ],
+      "expected_class": "mix_clipping",
+      "family": "mix_order",
+      "group": "mix_quiet",
+      "intent": "Boost the primary 6 dB before mixing, so 30000 peaks clip before the quiet sum is normalized.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 5466.699,
+        "mono_snr_db": 13.439,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f3_quiet_norm_first",
+      "role": "B_lossy",
+      "trial_id": "f3_quiet_boost_secondary"
+    },
+    {
+      "channels": [
+        {
+          "best_fit_scale": 0.059689,
+          "candidate_metrics": {
+            "crest_factor": 1.4142,
+            "frames": 800,
+            "peak": 978,
+            "peak_fraction_of_full_scale": 0.029847,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 691.553,
+            "rms_dbfs": -33.512,
+            "zero_samples": 8
+          },
+          "channel": "left",
+          "compared_frames": 800,
+          "differing_fraction": 0.04,
+          "differing_samples": 32,
+          "max_abs_residual": 0.512,
+          "reference_metrics": {
+            "crest_factor": 1.4141,
+            "frames": 800,
+            "peak": 16384,
+            "peak_fraction_of_full_scale": 0.500015,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 11585.965,
+            "rms_dbfs": -9.03,
+            "zero_samples": 8
+          },
+          "rms_residual": 0.276,
+          "snr_db": 67.993
+        },
+        {
+          "best_fit_scale": 0.059392,
+          "candidate_metrics": {
+            "crest_factor": 1.3905,
+            "frames": 800,
+            "peak": 15,
+            "peak_fraction_of_full_scale": 0.000458,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 10.788,
+            "rms_dbfs": -69.65,
+            "zero_samples": 100
+          },
+          "channel": "right",
+          "compared_frames": 800,
+          "differing_fraction": 0.0,
+          "differing_samples": 0,
+          "max_abs_residual": 0.417,
+          "reference_metrics": {
+            "crest_factor": 1.4155,
+            "frames": 800,
+            "peak": 257,
+            "peak_fraction_of_full_scale": 0.007843,
+            "railed_fraction": 0.0,
+            "railed_samples": 0,
+            "rms": 181.563,
+            "rms_dbfs": -45.128,
+            "zero_samples": 100
+          },
+          "rms_residual": 0.304,
+          "snr_db": 31.004
+        }
+      ],
+      "expected_class": "level_order_effect",
+      "family": "trim_order",
+      "group": "trim_order",
+      "intent": "Normalize against the full-file transient peak, then trim to the same quiet window.",
+      "mono_fold_down": {
+        "available": true,
+        "mono_max_abs_residual": 0.453,
+        "mono_snr_db": 64.442,
+        "note": "A mono fold-down averages the channels and can dilute a one-channel loss."
+      },
+      "reference_trial_id": "f4_trim_then_norm",
+      "role": "B_contrast",
+      "trial_id": "f4_norm_then_trim"
+    }
+  ],
+  "incomplete": [
+    {
+      "error": {
+        "body": {
+          "error": {
+            "code": "RENDER_FAILED",
+            "message": "The rendition failed before completion."
+          }
+        },
+        "kind": "http",
+        "status": 409
+      },
+      "family": "budget",
+      "filename": "boundary_2mb_dense.wav",
+      "incomplete_reason": "not_recorded",
+      "phase_reached": "rendition_failed",
+      "primary_input_bytes": 2000000,
+      "render_exceptions_observed": [
+        {
+          "detail": "",
+          "stage": "execute_plan",
+          "type": "MemoryError"
+        }
+      ],
+      "rss_hwm_mib": 102.5,
+      "trial_id": "f5_budget_2mb"
+    },
+    {
+      "error": {
+        "body": {
+          "error": {
+            "code": "RENDER_FAILED",
+            "message": "The rendition failed before completion."
+          }
+        },
+        "kind": "http",
+        "status": 409
+      },
+      "family": "budget",
+      "filename": "boundary_3mb_dense.wav",
+      "incomplete_reason": "not_recorded",
+      "phase_reached": "rendition_failed",
+      "primary_input_bytes": 3000000,
+      "render_exceptions_observed": [
+        {
+          "detail": "",
+          "stage": "execute_plan",
+          "type": "MemoryError"
+        }
+      ],
+      "rss_hwm_mib": 102.43,
+      "trial_id": "f5_budget_3mb"
+    },
+    {
+      "error": {
+        "body": {
+          "error": {
+            "code": "RENDER_FAILED",
+            "message": "The rendition failed before completion."
+          }
+        },
+        "kind": "http",
+        "status": 409
+      },
+      "family": "budget",
+      "filename": "boundary_4mb_dense.wav",
+      "incomplete_reason": "not_recorded",
+      "phase_reached": "rendition_failed",
+      "primary_input_bytes": 4000000,
+      "render_exceptions_observed": [
+        {
+          "detail": "",
+          "stage": "execute_plan",
+          "type": "MemoryError"
+        }
+      ],
+      "rss_hwm_mib": 104.66,
+      "trial_id": "f5_budget_4mb"
+    },
+    {
+      "error": {
+        "body": {
+          "error": {
+            "code": "RENDER_FAILED",
+            "message": "The rendition failed before completion."
+          }
+        },
+        "kind": "http",
+        "status": 409
+      },
+      "family": "budget",
+      "filename": "boundary_8mb_dense.wav",
+      "incomplete_reason": "not_recorded",
+      "phase_reached": "rendition_failed",
+      "primary_input_bytes": 8000000,
+      "render_exceptions_observed": [
+        {
+          "detail": "",
+          "stage": "execute_plan",
+          "type": "MemoryError"
+        }
+      ],
+      "rss_hwm_mib": 96.94,
+      "trial_id": "f5_budget_8mb"
+    },
+    {
+      "error": {
+        "body": {
+          "error": {
+            "code": "RENDER_FAILED",
+            "message": "The rendition failed before completion."
+          }
+        },
+        "kind": "http",
+        "status": 409
+      },
+      "family": "budget",
+      "filename": "boundary_16mb_dense.wav",
+      "incomplete_reason": "not_recorded",
+      "phase_reached": "rendition_failed",
+      "primary_input_bytes": 16000000,
+      "render_exceptions_observed": [
+        {
+          "detail": "",
+          "stage": "execute_plan",
+          "type": "MemoryError"
+        }
+      ],
+      "rss_hwm_mib": 83.29,
+      "trial_id": "f5_budget_16mb"
+    },
+    {
+      "error": {
+        "body": {
+          "error": {
+            "code": "RENDER_FAILED",
+            "message": "The rendition failed before completion."
+          }
+        },
+        "kind": "http",
+        "status": 409
+      },
+      "family": "budget",
+      "filename": "boundary_20mb_dense.wav",
+      "incomplete_reason": "not_recorded",
+      "phase_reached": "rendition_failed",
+      "primary_input_bytes": 20000000,
+      "render_exceptions_observed": [
+        {
+          "detail": "",
+          "stage": "execute_plan",
+          "type": "MemoryError"
+        }
+      ],
+      "rss_hwm_mib": 98.56,
+      "trial_id": "f5_budget_20mb"
+    },
+    {
+      "error": {
+        "body": {
+          "error": {
+            "code": "INTERNAL_ERROR",
+            "message": "An unexpected internal error occurred."
+          }
+        },
+        "kind": "http",
+        "status": 500
+      },
+      "family": "near_limit",
+      "filename": "near_limit_dense.wav",
+      "incomplete_reason": "not_recorded",
+      "phase_reached": "upload_primary",
+      "primary_input_bytes": 25000000,
+      "render_exceptions_observed": [
+        {
+          "detail": "",
+          "stage": "read_json_body",
+          "type": "MemoryError"
+        }
+      ],
+      "rss_hwm_mib": 86.35,
+      "trial_id": "f6_near_dense_reference"
+    },
+    {
+      "error": {
+        "body": {
+          "error": {
+            "code": "INTERNAL_ERROR",
+            "message": "An unexpected internal error occurred."
+          }
+        },
+        "kind": "http",
+        "status": 500
+      },
+      "family": "near_limit",
+      "filename": "near_limit_dense.wav",
+      "incomplete_reason": "not_recorded",
+      "phase_reached": "upload_primary",
+      "primary_input_bytes": 25000000,
+      "render_exceptions_observed": [
+        {
+          "detail": "",
+          "stage": "read_json_body",
+          "type": "MemoryError"
+        }
+      ],
+      "rss_hwm_mib": 86.25,
+      "trial_id": "f6_near_dense_clip"
+    },
+    {
+      "error": {
+        "body": {
+          "error": {
+            "code": "INTERNAL_ERROR",
+            "message": "An unexpected internal error occurred."
+          }
+        },
+        "kind": "http",
+        "status": 500
+      },
+      "family": "near_limit",
+      "filename": "near_limit_sparse.wav",
+      "incomplete_reason": "not_recorded",
+      "phase_reached": "upload_primary",
+      "primary_input_bytes": 25000000,
+      "render_exceptions_observed": [
+        {
+          "detail": "",
+          "stage": "read_json_body",
+          "type": "MemoryError"
+        }
+      ],
+      "rss_hwm_mib": 86.39,
+      "trial_id": "f6_near_sparse_reference"
+    },
+    {
+      "error": {
+        "body": {
+          "error": {
+            "code": "INTERNAL_ERROR",
+            "message": "An unexpected internal error occurred."
+          }
+        },
+        "kind": "http",
+        "status": 500
+      },
+      "family": "near_limit",
+      "filename": "near_limit_sparse.wav",
+      "incomplete_reason": "not_recorded",
+      "phase_reached": "upload_primary",
+      "primary_input_bytes": 25000000,
+      "render_exceptions_observed": [
+        {
+          "detail": "",
+          "stage": "read_json_body",
+          "type": "MemoryError"
+        }
+      ],
+      "rss_hwm_mib": 86.36,
+      "trial_id": "f6_near_sparse_clip"
+    }
+  ],
+  "rate": 8000,
+  "step_trace": {
+    "f1_dense_atten_then_norm": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "gain_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 15,
+          "railed_samples": 0,
+          "zero_samples": 2000
+        }
+      ],
+      "group": "gain_order_dense",
+      "operations": [
+        {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16038,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "db": -6,
+            "type": "audio_gain"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 2
+        }
+      ],
+      "trial_id": "f1_dense_atten_then_norm"
+    },
+    "f1_dense_clip_early": {
+      "clipped_at_any_step": true,
+      "clipping_steps": [
+        1
+      ],
+      "family": "gain_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 30,
+          "railed_samples": 0,
+          "zero_samples": 2000
+        }
+      ],
+      "group": "gain_order_dense",
+      "operations": [
+        {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 10400,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 60,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "db": 6,
+            "type": "audio_gain"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 2
+        }
+      ],
+      "trial_id": "f1_dense_clip_early"
+    },
+    "f1_dense_clip_late": {
+      "clipped_at_any_step": true,
+      "clipping_steps": [
+        2
+      ],
+      "family": "gain_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 30,
+          "railed_samples": 0,
+          "zero_samples": 2000
+        }
+      ],
+      "group": "gain_order_dense",
+      "operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "db": 12,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 10720,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 60,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "db": 12,
+            "type": "audio_gain"
+          },
+          "step": 2
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 3
+        }
+      ],
+      "trial_id": "f1_dense_clip_late"
+    },
+    "f1_dense_net_zero": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "gain_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 15,
+          "railed_samples": 0,
+          "zero_samples": 2000
+        }
+      ],
+      "group": "gain_order_dense",
+      "operations": [
+        {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16038,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "db": -6,
+            "type": "audio_gain"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "db": 6,
+            "type": "audio_gain"
+          },
+          "step": 2
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 3
+        }
+      ],
+      "trial_id": "f1_dense_net_zero"
+    },
+    "f1_dense_norm_only": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "gain_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 15,
+          "railed_samples": 0,
+          "zero_samples": 2000
+        }
+      ],
+      "group": "gain_order_dense",
+      "operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 1
+        }
+      ],
+      "trial_id": "f1_dense_norm_only"
+    },
+    "f1_sparse_atten_then_norm": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "gain_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 14416
+        },
+        {
+          "frames": 16000,
+          "peak": 15,
+          "railed_samples": 0,
+          "zero_samples": 2000
+        }
+      ],
+      "group": "gain_order_sparse",
+      "operations": [
+        {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16038,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "db": -6,
+            "type": "audio_gain"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 2
+        }
+      ],
+      "trial_id": "f1_sparse_atten_then_norm"
+    },
+    "f1_sparse_clip_early": {
+      "clipped_at_any_step": true,
+      "clipping_steps": [
+        1
+      ],
+      "family": "gain_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 14416
+        },
+        {
+          "frames": 16000,
+          "peak": 30,
+          "railed_samples": 0,
+          "zero_samples": 2000
+        }
+      ],
+      "group": "gain_order_sparse",
+      "operations": [
+        {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 584,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 60,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "db": 6,
+            "type": "audio_gain"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 2
+        }
+      ],
+      "trial_id": "f1_sparse_clip_early"
+    },
+    "f1_sparse_clip_late": {
+      "clipped_at_any_step": true,
+      "clipping_steps": [
+        2
+      ],
+      "family": "gain_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 14416
+        },
+        {
+          "frames": 16000,
+          "peak": 30,
+          "railed_samples": 0,
+          "zero_samples": 2000
+        }
+      ],
+      "group": "gain_order_sparse",
+      "operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "db": 12,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 592,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 60,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "db": 12,
+            "type": "audio_gain"
+          },
+          "step": 2
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 3
+        }
+      ],
+      "trial_id": "f1_sparse_clip_late"
+    },
+    "f1_sparse_net_zero": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "gain_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 14416
+        },
+        {
+          "frames": 16000,
+          "peak": 15,
+          "railed_samples": 0,
+          "zero_samples": 2000
+        }
+      ],
+      "group": "gain_order_sparse",
+      "operations": [
+        {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16038,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "db": -6,
+            "type": "audio_gain"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "db": 6,
+            "type": "audio_gain"
+          },
+          "step": 2
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 3
+        }
+      ],
+      "trial_id": "f1_sparse_net_zero"
+    },
+    "f1_sparse_norm_only": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "gain_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 14416
+        },
+        {
+          "frames": 16000,
+          "peak": 15,
+          "railed_samples": 0,
+          "zero_samples": 2000
+        }
+      ],
+      "group": "gain_order_sparse",
+      "operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 14416
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 1
+        }
+      ],
+      "trial_id": "f1_sparse_norm_only"
+    },
+    "f2_dense_norm_only": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "quantization",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 15,
+          "railed_samples": 0,
+          "zero_samples": 2000
+        }
+      ],
+      "group": "quant_dense",
+      "operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 1
+        }
+      ],
+      "trial_id": "f2_dense_norm_only"
+    },
+    "f2_dense_quiet_2lsb": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "quantization",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 16,
+          "railed_samples": 0,
+          "zero_samples": 2000
+        }
+      ],
+      "group": "quant_dense",
+      "operations": [
+        {
+          "db": -24,
+          "type": "audio_gain"
+        },
+        {
+          "db": 24,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 2019,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 2,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "db": -24,
+            "type": "audio_gain"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 31999,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 32,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "db": 24,
+            "type": "audio_gain"
+          },
+          "step": 2
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 16,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 3
+        }
+      ],
+      "trial_id": "f2_dense_quiet_2lsb"
+    },
+    "f2_dense_quiet_annihilated": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "quantization",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 480
+        },
+        {
+          "frames": 16000,
+          "peak": 0,
+          "railed_samples": 0,
+          "zero_samples": 16000
+        }
+      ],
+      "group": "quant_dense",
+      "operations": [
+        {
+          "db": -48,
+          "type": "audio_gain"
+        },
+        {
+          "db": -24,
+          "type": "audio_gain"
+        },
+        {
+          "db": 24,
+          "type": "audio_gain"
+        },
+        {
+          "db": 24,
+          "type": "audio_gain"
+        },
+        {
+          "db": 24,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 127,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 0,
+              "railed_samples": 0,
+              "zero_samples": 16000
+            }
+          ],
+          "operation": {
+            "db": -48,
+            "type": "audio_gain"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 8,
+              "railed_samples": 0,
+              "zero_samples": 480
+            },
+            {
+              "frames": 16000,
+              "peak": 0,
+              "railed_samples": 0,
+              "zero_samples": 16000
+            }
+          ],
+          "operation": {
+            "db": -24,
+            "type": "audio_gain"
+          },
+          "step": 2
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 127,
+              "railed_samples": 0,
+              "zero_samples": 480
+            },
+            {
+              "frames": 16000,
+              "peak": 0,
+              "railed_samples": 0,
+              "zero_samples": 16000
+            }
+          ],
+          "operation": {
+            "db": 24,
+            "type": "audio_gain"
+          },
+          "step": 3
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 2013,
+              "railed_samples": 0,
+              "zero_samples": 480
+            },
+            {
+              "frames": 16000,
+              "peak": 0,
+              "railed_samples": 0,
+              "zero_samples": 16000
+            }
+          ],
+          "operation": {
+            "db": 24,
+            "type": "audio_gain"
+          },
+          "step": 4
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 31904,
+              "railed_samples": 0,
+              "zero_samples": 480
+            },
+            {
+              "frames": 16000,
+              "peak": 0,
+              "railed_samples": 0,
+              "zero_samples": 16000
+            }
+          ],
+          "operation": {
+            "db": 24,
+            "type": "audio_gain"
+          },
+          "step": 5
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 480
+            },
+            {
+              "frames": 16000,
+              "peak": 0,
+              "railed_samples": 0,
+              "zero_samples": 16000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 6
+        }
+      ],
+      "trial_id": "f2_dense_quiet_annihilated"
+    },
+    "f3_quiet_boost_secondary": {
+      "clipped_at_any_step": true,
+      "clipping_steps": [
+        1,
+        2
+      ],
+      "family": "mix_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 4
+        }
+      ],
+      "group": "mix_quiet",
+      "operations": [
+        {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 10080,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 10100,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "db": 6,
+            "type": "audio_gain"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 5120,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 5092,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "primary_weight": 1.0,
+            "secondary_gain": 0.0,
+            "secondary_weight": 1.0,
+            "type": "audio_mix"
+          },
+          "step": 2
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 3
+        }
+      ],
+      "trial_id": "f3_quiet_boost_secondary"
+    },
+    "f3_quiet_mix_first": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "mix_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16076,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 4
+        }
+      ],
+      "group": "mix_quiet",
+      "operations": [
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 30023,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30598,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "primary_weight": 1.0,
+            "secondary_gain": 0.0,
+            "secondary_weight": 1.0,
+            "type": "audio_mix"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16076,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 2
+        }
+      ],
+      "trial_id": "f3_quiet_mix_first"
+    },
+    "f3_quiet_norm_first": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "mix_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 15847,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 12
+        }
+      ],
+      "group": "mix_quiet",
+      "operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16426,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 16982,
+              "railed_samples": 0,
+              "zero_samples": 12
+            }
+          ],
+          "operation": {
+            "primary_weight": 1.0,
+            "secondary_gain": 0.0,
+            "secondary_weight": 1.0,
+            "type": "audio_mix"
+          },
+          "step": 2
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 15847,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 12
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 3
+        }
+      ],
+      "trial_id": "f3_quiet_norm_first"
+    },
+    "f3_weak_balanced": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "mix_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 14297,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 4
+        }
+      ],
+      "group": "mix_weak",
+      "operations": [
+        {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 6.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 15036,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 15036,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "db": -6,
+            "type": "audio_gain"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 23567,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 27006,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "primary_weight": 1.0,
+            "secondary_gain": 6.0,
+            "secondary_weight": 1.0,
+            "type": "audio_mix"
+          },
+          "step": 2
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 14297,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 3
+        }
+      ],
+      "trial_id": "f3_weak_balanced"
+    },
+    "f3_weak_gain_up": {
+      "clipped_at_any_step": true,
+      "clipping_steps": [
+        1,
+        2
+      ],
+      "family": "mix_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 4
+        }
+      ],
+      "group": "mix_weak",
+      "operations": [
+        {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 10080,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 10100,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "db": 6,
+            "type": "audio_gain"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 5600,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 5428,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "primary_weight": 1.0,
+            "secondary_gain": 0.0,
+            "secondary_weight": 1.0,
+            "type": "audio_mix"
+          },
+          "step": 2
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 3
+        }
+      ],
+      "trial_id": "f3_weak_gain_up"
+    },
+    "f3_weak_mix_first": {
+      "clipped_at_any_step": true,
+      "clipping_steps": [
+        1
+      ],
+      "family": "mix_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 16029,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 4
+        }
+      ],
+      "group": "mix_weak",
+      "operations": [
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32059,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 32768,
+              "railed_samples": 1280,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "primary_weight": 1.0,
+            "secondary_gain": 0.0,
+            "secondary_weight": 1.0,
+            "type": "audio_mix"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16029,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 2
+        }
+      ],
+      "trial_id": "f3_weak_mix_first"
+    },
+    "f3_weak_norm_first": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "mix_order",
+      "final_channels": [
+        {
+          "frames": 16000,
+          "peak": 14239,
+          "railed_samples": 0,
+          "zero_samples": 160
+        },
+        {
+          "frames": 16000,
+          "peak": 16383,
+          "railed_samples": 0,
+          "zero_samples": 4
+        }
+      ],
+      "group": "mix_weak",
+      "operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30000,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 19452,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 22382,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "primary_weight": 1.0,
+            "secondary_gain": 0.0,
+            "secondary_weight": 1.0,
+            "type": "audio_mix"
+          },
+          "step": 2
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 14239,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 16383,
+              "railed_samples": 0,
+              "zero_samples": 4
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 3
+        }
+      ],
+      "trial_id": "f3_weak_norm_first"
+    },
+    "f4_norm_then_trim": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "trim_order",
+      "final_channels": [
+        {
+          "frames": 800,
+          "peak": 978,
+          "railed_samples": 0,
+          "zero_samples": 8
+        },
+        {
+          "frames": 800,
+          "peak": 15,
+          "railed_samples": 0,
+          "zero_samples": 100
+        }
+      ],
+      "group": "trim_order",
+      "operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "duration_seconds": 0.1,
+          "start_seconds": 0.45,
+          "type": "media_trim"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 800,
+              "peak": 978,
+              "railed_samples": 0,
+              "zero_samples": 8
+            },
+            {
+              "frames": 800,
+              "peak": 15,
+              "railed_samples": 0,
+              "zero_samples": 100
+            }
+          ],
+          "operation": {
+            "duration_seconds": 0.1,
+            "start_seconds": 0.45,
+            "type": "media_trim"
+          },
+          "step": 2
+        }
+      ],
+      "trial_id": "f4_norm_then_trim"
+    },
+    "f4_trim_then_norm": {
+      "clipped_at_any_step": false,
+      "clipping_steps": [],
+      "family": "trim_order",
+      "final_channels": [
+        {
+          "frames": 800,
+          "peak": 16384,
+          "railed_samples": 0,
+          "zero_samples": 8
+        },
+        {
+          "frames": 800,
+          "peak": 257,
+          "railed_samples": 0,
+          "zero_samples": 100
+        }
+      ],
+      "group": "trim_order",
+      "operations": [
+        {
+          "duration_seconds": 0.1,
+          "start_seconds": 0.45,
+          "type": "media_trim"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "steps": [
+        {
+          "channels": [
+            {
+              "frames": 16000,
+              "peak": 32000,
+              "railed_samples": 0,
+              "zero_samples": 160
+            },
+            {
+              "frames": 16000,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 2000
+            }
+          ],
+          "operation": "source",
+          "step": 0
+        },
+        {
+          "channels": [
+            {
+              "frames": 800,
+              "peak": 1910,
+              "railed_samples": 0,
+              "zero_samples": 8
+            },
+            {
+              "frames": 800,
+              "peak": 30,
+              "railed_samples": 0,
+              "zero_samples": 100
+            }
+          ],
+          "operation": {
+            "duration_seconds": 0.1,
+            "start_seconds": 0.45,
+            "type": "media_trim"
+          },
+          "step": 1
+        },
+        {
+          "channels": [
+            {
+              "frames": 800,
+              "peak": 16384,
+              "railed_samples": 0,
+              "zero_samples": 8
+            },
+            {
+              "frames": 800,
+              "peak": 257,
+              "railed_samples": 0,
+              "zero_samples": 100
+            }
+          ],
+          "operation": {
+            "target_peak": 0.5,
+            "type": "audio_normalize"
+          },
+          "step": 2
+        }
+      ],
+      "trial_id": "f4_trim_then_norm"
+    }
+  },
+  "trials": {
+    "f1_dense_atten_then_norm": {
+      "channels": [
+        {
+          "crest_factor": 1.4143,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11584.904,
+          "rms_dbfs": -9.031,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.3905,
+          "frames": 16000,
+          "peak": 15,
+          "peak_fraction_of_full_scale": 0.000458,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 10.788,
+          "rms_dbfs": -69.65,
+          "zero_samples": 2000
+        }
+      ],
+      "expected_class": "reference_no_clip",
+      "family": "gain_order",
+      "group": "gain_order_dense",
+      "integrity_result": "verified",
+      "intent": "Attenuate 6 dB, then normalize: never clips.",
+      "material": "dense_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "db": -6.0,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "e274eb5c1d965db7f7a81ca942343525c0d7da1f12410be080947fe0d9214755",
+      "plan_digest": "6f1aad09429cb0d2bbd0a4adb3df8656ba0c967698ffd4c94964716717099bb4",
+      "primary_asset_file": "dense_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "A_reference",
+      "rss_hwm_mib": 24.69,
+      "secondary_asset_file": null,
+      "trial_id": "f1_dense_atten_then_norm"
+    },
+    "f1_dense_clip_early": {
+      "channels": [
+        {
+          "crest_factor": 1.1353,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 14431.735,
+          "rms_dbfs": -7.122,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.4158,
+          "frames": 16000,
+          "peak": 30,
+          "peak_fraction_of_full_scale": 0.000916,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 21.19,
+          "rms_dbfs": -63.786,
+          "zero_samples": 2000
+        }
+      ],
+      "expected_class": "clipping_early",
+      "family": "gain_order",
+      "group": "gain_order_dense",
+      "integrity_result": "verified",
+      "intent": "Boost 6 dB first: 32000 peaks become ~63840 and clip hard, then normalize.",
+      "material": "dense_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "db": 6.0,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "12355590e59147d75caa030ee79eef0cad0635742165b6a46ddf596e36534338",
+      "plan_digest": "78d0b0251757fdf5a205b26edeca5ba99bf1781ef2317cc333bfa9b540c5d93d",
+      "primary_asset_file": "dense_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "B_lossy",
+      "rss_hwm_mib": 24.09,
+      "secondary_asset_file": null,
+      "trial_id": "f1_dense_clip_early"
+    },
+    "f1_dense_clip_late": {
+      "channels": [
+        {
+          "crest_factor": 1.1317,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 14477.734,
+          "rms_dbfs": -7.095,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.3905,
+          "frames": 16000,
+          "peak": 30,
+          "peak_fraction_of_full_scale": 0.000916,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 21.575,
+          "rms_dbfs": -63.63,
+          "zero_samples": 2000
+        }
+      ],
+      "expected_class": "clipping_late",
+      "family": "gain_order",
+      "group": "gain_order_dense",
+      "integrity_result": "verified",
+      "intent": "Normalize, boost 12 dB so the chain clips, then normalize again; flat tops persist.",
+      "material": "dense_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "db": 12.0,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "09ebbdc4bc67b630f90c8189ef7812b3a9a949a213c9b65a608243648d43ec03",
+      "plan_digest": "da982330edb3136a6d3395fdd6b99f03a5dfa84ececa2def0bf4e395ea482f8b",
+      "primary_asset_file": "dense_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "db": 12,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "B_lossy",
+      "rss_hwm_mib": 24.82,
+      "secondary_asset_file": null,
+      "trial_id": "f1_dense_clip_late"
+    },
+    "f1_dense_net_zero": {
+      "channels": [
+        {
+          "crest_factor": 1.4143,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11584.902,
+          "rms_dbfs": -9.031,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.3905,
+          "frames": 16000,
+          "peak": 15,
+          "peak_fraction_of_full_scale": 0.000458,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 10.788,
+          "rms_dbfs": -69.65,
+          "zero_samples": 2000
+        }
+      ],
+      "expected_class": "quantization_roundtrip",
+      "family": "gain_order",
+      "group": "gain_order_dense",
+      "integrity_result": "verified",
+      "intent": "-6 then +6 dB: level restored but every sample rounded twice.",
+      "material": "dense_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "db": -6.0,
+          "type": "audio_gain"
+        },
+        {
+          "db": 6.0,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "c25c2c756a745691121a703ac6fd51459b99bde5517a10eadfcb63da77677a0f",
+      "plan_digest": "b1d2d4c5b8ec0b5109ec1557f3bfc4f7624de929152a32779652faf04485e493",
+      "primary_asset_file": "dense_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "B_lossy",
+      "rss_hwm_mib": 24.83,
+      "secondary_asset_file": null,
+      "trial_id": "f1_dense_net_zero"
+    },
+    "f1_dense_norm_only": {
+      "channels": [
+        {
+          "crest_factor": 1.4142,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11584.953,
+          "rms_dbfs": -9.031,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.3905,
+          "frames": 16000,
+          "peak": 15,
+          "peak_fraction_of_full_scale": 0.000458,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 10.788,
+          "rms_dbfs": -69.65,
+          "zero_samples": 2000
+        }
+      ],
+      "expected_class": "reference_clean",
+      "family": "gain_order",
+      "group": "gain_order_dense",
+      "integrity_result": "verified",
+      "intent": "Single normalize to 0.5: the clean reference at the final peak.",
+      "material": "dense_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "df5d481c2733024524b00c37a65055658c73454b9bab7b0f712b2e8f5233d66f",
+      "plan_digest": "dd60be0bc16d91c019649d13d5dd6c84d196050996564288a9dc196cf81dd990",
+      "primary_asset_file": "dense_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "A_reference",
+      "rss_hwm_mib": 24.48,
+      "secondary_asset_file": null,
+      "trial_id": "f1_dense_norm_only"
+    },
+    "f1_sparse_atten_then_norm": {
+      "channels": [
+        {
+          "crest_factor": 6.2159,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 2635.822,
+          "rms_dbfs": -21.89,
+          "zero_samples": 14416
+        },
+        {
+          "crest_factor": 1.3905,
+          "frames": 16000,
+          "peak": 15,
+          "peak_fraction_of_full_scale": 0.000458,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 10.788,
+          "rms_dbfs": -69.65,
+          "zero_samples": 2000
+        }
+      ],
+      "expected_class": "reference_no_clip",
+      "family": "gain_order",
+      "group": "gain_order_sparse",
+      "integrity_result": "verified",
+      "intent": "Attenuate 6 dB, then normalize: never clips.",
+      "material": "sparse_transient_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "db": -6.0,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "a32ae91e9d791975ebc69cc2d429480303555cb0f98b9109d4ea50d65137ba53",
+      "plan_digest": "6f1aad09429cb0d2bbd0a4adb3df8656ba0c967698ffd4c94964716717099bb4",
+      "primary_asset_file": "sparse_transient_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "A_reference",
+      "rss_hwm_mib": 23.54,
+      "secondary_asset_file": null,
+      "trial_id": "f1_sparse_atten_then_norm"
+    },
+    "f1_sparse_clip_early": {
+      "channels": [
+        {
+          "crest_factor": 4.3338,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 3780.479,
+          "rms_dbfs": -18.758,
+          "zero_samples": 14416
+        },
+        {
+          "crest_factor": 1.4158,
+          "frames": 16000,
+          "peak": 30,
+          "peak_fraction_of_full_scale": 0.000916,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 21.19,
+          "rms_dbfs": -63.786,
+          "zero_samples": 2000
+        }
+      ],
+      "expected_class": "clipping_early",
+      "family": "gain_order",
+      "group": "gain_order_sparse",
+      "integrity_result": "verified",
+      "intent": "Boost 6 dB first: 32000 peaks become ~63840 and clip hard, then normalize.",
+      "material": "sparse_transient_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "db": 6.0,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "44334902b00bf84a8a749919f5a8661b87e9dc959693108dc0d66189df4f33c3",
+      "plan_digest": "78d0b0251757fdf5a205b26edeca5ba99bf1781ef2317cc333bfa9b540c5d93d",
+      "primary_asset_file": "sparse_transient_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "B_lossy",
+      "rss_hwm_mib": 23.54,
+      "secondary_asset_file": null,
+      "trial_id": "f1_sparse_clip_early"
+    },
+    "f1_sparse_clip_late": {
+      "channels": [
+        {
+          "crest_factor": 4.3051,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 3805.685,
+          "rms_dbfs": -18.7,
+          "zero_samples": 14416
+        },
+        {
+          "crest_factor": 1.3905,
+          "frames": 16000,
+          "peak": 30,
+          "peak_fraction_of_full_scale": 0.000916,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 21.575,
+          "rms_dbfs": -63.63,
+          "zero_samples": 2000
+        }
+      ],
+      "expected_class": "clipping_late",
+      "family": "gain_order",
+      "group": "gain_order_sparse",
+      "integrity_result": "verified",
+      "intent": "Normalize, boost 12 dB so the chain clips, then normalize again; flat tops persist.",
+      "material": "sparse_transient_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "db": 12.0,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "eda87bfd39bd9c6417a902238f1fa7b1fe869d8a1ecdb3d5d29afdef09a1d0b2",
+      "plan_digest": "da982330edb3136a6d3395fdd6b99f03a5dfa84ececa2def0bf4e395ea482f8b",
+      "primary_asset_file": "sparse_transient_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "db": 12,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "B_lossy",
+      "rss_hwm_mib": 23.68,
+      "secondary_asset_file": null,
+      "trial_id": "f1_sparse_clip_late"
+    },
+    "f1_sparse_net_zero": {
+      "channels": [
+        {
+          "crest_factor": 6.2159,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 2635.818,
+          "rms_dbfs": -21.89,
+          "zero_samples": 14416
+        },
+        {
+          "crest_factor": 1.3905,
+          "frames": 16000,
+          "peak": 15,
+          "peak_fraction_of_full_scale": 0.000458,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 10.788,
+          "rms_dbfs": -69.65,
+          "zero_samples": 2000
+        }
+      ],
+      "expected_class": "quantization_roundtrip",
+      "family": "gain_order",
+      "group": "gain_order_sparse",
+      "integrity_result": "verified",
+      "intent": "-6 then +6 dB: level restored but every sample rounded twice.",
+      "material": "sparse_transient_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "db": -6.0,
+          "type": "audio_gain"
+        },
+        {
+          "db": 6.0,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "5091206faf49eb66f665f73af56fcb75a116fcead836d57b6c1915d45cb759fd",
+      "plan_digest": "b1d2d4c5b8ec0b5109ec1557f3bfc4f7624de929152a32779652faf04485e493",
+      "primary_asset_file": "sparse_transient_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "B_lossy",
+      "rss_hwm_mib": 23.78,
+      "secondary_asset_file": null,
+      "trial_id": "f1_sparse_net_zero"
+    },
+    "f1_sparse_norm_only": {
+      "channels": [
+        {
+          "crest_factor": 6.2159,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 2635.831,
+          "rms_dbfs": -21.89,
+          "zero_samples": 14416
+        },
+        {
+          "crest_factor": 1.3905,
+          "frames": 16000,
+          "peak": 15,
+          "peak_fraction_of_full_scale": 0.000458,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 10.788,
+          "rms_dbfs": -69.65,
+          "zero_samples": 2000
+        }
+      ],
+      "expected_class": "reference_clean",
+      "family": "gain_order",
+      "group": "gain_order_sparse",
+      "integrity_result": "verified",
+      "intent": "Single normalize to 0.5: the clean reference at the final peak.",
+      "material": "sparse_transient_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "343b2b4adddd1249fedc492e66b6b478d9ad66ed33ba64e12dadb3c15220cffe",
+      "plan_digest": "dd60be0bc16d91c019649d13d5dd6c84d196050996564288a9dc196cf81dd990",
+      "primary_asset_file": "sparse_transient_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "A_reference",
+      "rss_hwm_mib": 23.61,
+      "secondary_asset_file": null,
+      "trial_id": "f1_sparse_norm_only"
+    },
+    "f2_dense_norm_only": {
+      "channels": [
+        {
+          "crest_factor": 1.4142,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11584.953,
+          "rms_dbfs": -9.031,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.3905,
+          "frames": 16000,
+          "peak": 15,
+          "peak_fraction_of_full_scale": 0.000458,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 10.788,
+          "rms_dbfs": -69.65,
+          "zero_samples": 2000
+        }
+      ],
+      "expected_class": "reference_clean",
+      "family": "quantization",
+      "group": "quant_dense",
+      "integrity_result": "verified",
+      "intent": "Single normalize to 0.5: both channels keep their detail.",
+      "material": "dense_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "df5d481c2733024524b00c37a65055658c73454b9bab7b0f712b2e8f5233d66f",
+      "plan_digest": "dd60be0bc16d91c019649d13d5dd6c84d196050996564288a9dc196cf81dd990",
+      "primary_asset_file": "dense_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "A_reference",
+      "rss_hwm_mib": 24.56,
+      "secondary_asset_file": null,
+      "trial_id": "f2_dense_norm_only"
+    },
+    "f2_dense_quiet_2lsb": {
+      "channels": [
+        {
+          "crest_factor": 1.4142,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11585.054,
+          "rms_dbfs": -9.031,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.4142,
+          "frames": 16000,
+          "peak": 16,
+          "peak_fraction_of_full_scale": 0.000488,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11.314,
+          "rms_dbfs": -69.237,
+          "zero_samples": 2000
+        }
+      ],
+      "expected_class": "quiet_detail_coarse",
+      "family": "quantization",
+      "group": "quant_dense",
+      "integrity_result": "verified",
+      "intent": "-24 then +24 dB: the quiet right pilot is reduced to ~2 LSB before being restored.",
+      "material": "dense_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "db": -24.0,
+          "type": "audio_gain"
+        },
+        {
+          "db": 24.0,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "78fd66eb0d11b21ca3e2a43032d70c36eabeeca790a77b1e4d2555125177008d",
+      "plan_digest": "b42a6c5d4fd6be07a949ce2b778f8fb5ec43d592d20824aaf26f1f45143fcfa6",
+      "primary_asset_file": "dense_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "db": -24,
+          "type": "audio_gain"
+        },
+        {
+          "db": 24,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "B_lossy",
+      "rss_hwm_mib": 24.81,
+      "secondary_asset_file": null,
+      "trial_id": "f2_dense_quiet_2lsb"
+    },
+    "f2_dense_quiet_annihilated": {
+      "channels": [
+        {
+          "crest_factor": 1.408,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11636.624,
+          "rms_dbfs": -8.992,
+          "zero_samples": 480
+        },
+        {
+          "crest_factor": null,
+          "frames": 16000,
+          "peak": 0,
+          "peak_fraction_of_full_scale": 0.0,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 0.0,
+          "rms_dbfs": null,
+          "zero_samples": 16000
+        }
+      ],
+      "expected_class": "quiet_detail_annihilated",
+      "family": "quantization",
+      "group": "quant_dense",
+      "integrity_result": "verified",
+      "intent": "-48, -24, +24, +24, +24 dB (net 0): the quiet right pilot rounds to zero and stays zero.",
+      "material": "dense_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "db": -48.0,
+          "type": "audio_gain"
+        },
+        {
+          "db": -24.0,
+          "type": "audio_gain"
+        },
+        {
+          "db": 24.0,
+          "type": "audio_gain"
+        },
+        {
+          "db": 24.0,
+          "type": "audio_gain"
+        },
+        {
+          "db": 24.0,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "f2629e690dfe9374473e388aeb0827e878a3d13564c05fe1d6cb06fe9b6ebb32",
+      "plan_digest": "531c9ab92878c3d878f2689077c1ab7a83fb940cca41153761a80f28a539ef45",
+      "primary_asset_file": "dense_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "db": -48,
+          "type": "audio_gain"
+        },
+        {
+          "db": -24,
+          "type": "audio_gain"
+        },
+        {
+          "db": 24,
+          "type": "audio_gain"
+        },
+        {
+          "db": 24,
+          "type": "audio_gain"
+        },
+        {
+          "db": 24,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "B_lossy",
+      "rss_hwm_mib": 24.1,
+      "secondary_asset_file": null,
+      "trial_id": "f2_dense_quiet_annihilated"
+    },
+    "f3_quiet_boost_secondary": {
+      "channels": [
+        {
+          "crest_factor": 1.1533,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 14205.62,
+          "rms_dbfs": -7.26,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.1527,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 14213.493,
+          "rms_dbfs": -7.255,
+          "zero_samples": 4
+        }
+      ],
+      "expected_class": "mix_clipping",
+      "family": "mix_order",
+      "group": "mix_quiet",
+      "integrity_result": "verified",
+      "intent": "Boost the primary 6 dB before mixing, so 30000 peaks clip before the quiet sum is normalized.",
+      "material": "mix_strong_primary.wav",
+      "normalized_operations": [
+        {
+          "db": 6.0,
+          "type": "audio_gain"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "31a2a883f9ff437d34ecb5ec6b1c0fe6d7acd78124dbfc83320bd92de206ed89",
+      "plan_digest": "23b0bd4d78ce4e667bedd535ca17e5e653e3b30ac58e7f9d8d07aca5265d60cd",
+      "primary_asset_file": "mix_strong_primary.wav",
+      "requested_operations": [
+        {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "B_lossy",
+      "rss_hwm_mib": 25.81,
+      "secondary_asset_file": "mix_quiet_secondary.wav",
+      "trial_id": "f3_quiet_boost_secondary"
+    },
+    "f3_quiet_mix_first": {
+      "channels": [
+        {
+          "crest_factor": 1.415,
+          "frames": 16000,
+          "peak": 16076,
+          "peak_fraction_of_full_scale": 0.490616,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11360.746,
+          "rms_dbfs": -9.201,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.4422,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11360.744,
+          "rms_dbfs": -9.201,
+          "zero_samples": 4
+        }
+      ],
+      "expected_class": "reference_no_clip",
+      "family": "mix_order",
+      "group": "mix_quiet",
+      "integrity_result": "verified",
+      "intent": "Mix first with the quiet secondary; the sum stays below full scale, so no clipping here.",
+      "material": "mix_strong_primary.wav",
+      "normalized_operations": [
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "6137d10017d4a705cb8ec1e68c56894c589dbd429e0f642c142daf6179218c92",
+      "plan_digest": "b2fa13f77b4208baf1b3b3e2bf759fb47aba96a802378262a93b41e0f1e9178b",
+      "primary_asset_file": "mix_strong_primary.wav",
+      "requested_operations": [
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "B_lossy",
+      "rss_hwm_mib": 26.07,
+      "secondary_asset_file": "mix_quiet_secondary.wav",
+      "trial_id": "f3_quiet_mix_first"
+    },
+    "f3_quiet_norm_first": {
+      "channels": [
+        {
+          "crest_factor": 1.4169,
+          "frames": 16000,
+          "peak": 15847,
+          "peak_fraction_of_full_scale": 0.483627,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11184.097,
+          "rms_dbfs": -9.337,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.4649,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11184.089,
+          "rms_dbfs": -9.337,
+          "zero_samples": 12
+        }
+      ],
+      "expected_class": "reference_no_clip",
+      "family": "mix_order",
+      "group": "mix_quiet",
+      "integrity_result": "verified",
+      "intent": "Normalize the primary, then mix the quiet 600-peak secondary.",
+      "material": "mix_strong_primary.wav",
+      "normalized_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "f76bb02a67750eeb628de881a5042cfec09a30648d6efaee703715669a19c77a",
+      "plan_digest": "d775c6038b0aff9f004e254c412aa874b55708e2813cc2a7a04ac0a60aa076d6",
+      "primary_asset_file": "mix_strong_primary.wav",
+      "requested_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "A_reference",
+      "rss_hwm_mib": 26.1,
+      "secondary_asset_file": "mix_quiet_secondary.wav",
+      "trial_id": "f3_quiet_norm_first"
+    },
+    "f3_weak_balanced": {
+      "channels": [
+        {
+          "crest_factor": 1.7341,
+          "frames": 16000,
+          "peak": 14297,
+          "peak_fraction_of_full_scale": 0.436323,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 8244.777,
+          "rms_dbfs": -11.985,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.9872,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 8244.69,
+          "rms_dbfs": -11.985,
+          "zero_samples": 4
+        }
+      ],
+      "expected_class": "reference_balanced",
+      "family": "mix_order",
+      "group": "mix_weak",
+      "integrity_result": "verified",
+      "intent": "Attenuate primary and boost secondary before mixing: balanced, no clipping.",
+      "material": "mix_strong_primary.wav",
+      "normalized_operations": [
+        {
+          "db": -6.0,
+          "type": "audio_gain"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 6.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "28f5c3a703155c001a00912850830ad05fce58ce86cf145e4602488f5f9125f4",
+      "plan_digest": "318cb4744ec8b2175ce9a1f6f0bd21bbf971c92a25db752ce6e195b5adec1972",
+      "primary_asset_file": "mix_strong_primary.wav",
+      "requested_operations": [
+        {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 6.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "A_reference",
+      "rss_hwm_mib": 26.26,
+      "secondary_asset_file": "mix_weak_secondary.wav",
+      "trial_id": "f3_weak_balanced"
+    },
+    "f3_weak_gain_up": {
+      "channels": [
+        {
+          "crest_factor": 1.2098,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 13542.353,
+          "rms_dbfs": -7.675,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.2002,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 13650.697,
+          "rms_dbfs": -7.606,
+          "zero_samples": 4
+        }
+      ],
+      "expected_class": "mix_clipping",
+      "family": "mix_order",
+      "group": "mix_weak",
+      "integrity_result": "verified",
+      "intent": "Boost the primary before mixing: primary peaks clip before the sum is normalized.",
+      "material": "mix_strong_primary.wav",
+      "normalized_operations": [
+        {
+          "db": 6.0,
+          "type": "audio_gain"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "d25fa842b6d74dc3b285fc827d69e5e48509d073d74caf27e291fd5881c3fdad",
+      "plan_digest": "23b0bd4d78ce4e667bedd535ca17e5e653e3b30ac58e7f9d8d07aca5265d60cd",
+      "primary_asset_file": "mix_strong_primary.wav",
+      "requested_operations": [
+        {
+          "db": 6,
+          "type": "audio_gain"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "B_lossy",
+      "rss_hwm_mib": 25.91,
+      "secondary_asset_file": "mix_weak_secondary.wav",
+      "trial_id": "f3_weak_gain_up"
+    },
+    "f3_weak_mix_first": {
+      "channels": [
+        {
+          "crest_factor": 1.4819,
+          "frames": 16000,
+          "peak": 16029,
+          "peak_fraction_of_full_scale": 0.489181,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 10816.432,
+          "rms_dbfs": -9.627,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.5289,
+          "frames": 16000,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 10716.201,
+          "rms_dbfs": -9.708,
+          "zero_samples": 4
+        }
+      ],
+      "expected_class": "mix_clipping",
+      "family": "mix_order",
+      "group": "mix_weak",
+      "integrity_result": "verified",
+      "intent": "Mix first: 30000 + 6000 exceeds full scale and clips before normalizing.",
+      "material": "mix_strong_primary.wav",
+      "normalized_operations": [
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "60b8930af6bd6b5efc06735586ba363f227840db5302f844d72ab8bf8857ff56",
+      "plan_digest": "b2fa13f77b4208baf1b3b3e2bf759fb47aba96a802378262a93b41e0f1e9178b",
+      "primary_asset_file": "mix_strong_primary.wav",
+      "requested_operations": [
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "B_lossy",
+      "rss_hwm_mib": 26.18,
+      "secondary_asset_file": "mix_weak_secondary.wav",
+      "trial_id": "f3_weak_mix_first"
+    },
+    "f3_weak_norm_first": {
+      "channels": [
+        {
+          "crest_factor": 1.5767,
+          "frames": 16000,
+          "peak": 14239,
+          "peak_fraction_of_full_scale": 0.434553,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 9030.879,
+          "rms_dbfs": -11.194,
+          "zero_samples": 160
+        },
+        {
+          "crest_factor": 1.8141,
+          "frames": 16000,
+          "peak": 16383,
+          "peak_fraction_of_full_scale": 0.499985,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 9030.855,
+          "rms_dbfs": -11.194,
+          "zero_samples": 4
+        }
+      ],
+      "expected_class": "reference_no_clip",
+      "family": "mix_order",
+      "group": "mix_weak",
+      "integrity_result": "verified",
+      "intent": "Normalize the primary, then mix the secondary, then normalize again.",
+      "material": "mix_strong_primary.wav",
+      "normalized_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "35475c59c0427e3cd5088f20fc12357ba249a426239b5bfbd5492edf5c4856fe",
+      "plan_digest": "d775c6038b0aff9f004e254c412aa874b55708e2813cc2a7a04ac0a60aa076d6",
+      "primary_asset_file": "mix_strong_primary.wav",
+      "requested_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "primary_weight": 1.0,
+          "secondary_gain": 0.0,
+          "secondary_weight": 1.0,
+          "type": "audio_mix"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "A_reference",
+      "rss_hwm_mib": 26.09,
+      "secondary_asset_file": "mix_weak_secondary.wav",
+      "trial_id": "f3_weak_norm_first"
+    },
+    "f4_norm_then_trim": {
+      "channels": [
+        {
+          "crest_factor": 1.4142,
+          "frames": 800,
+          "peak": 978,
+          "peak_fraction_of_full_scale": 0.029847,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 691.553,
+          "rms_dbfs": -33.512,
+          "zero_samples": 8
+        },
+        {
+          "crest_factor": 1.3905,
+          "frames": 800,
+          "peak": 15,
+          "peak_fraction_of_full_scale": 0.000458,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 10.788,
+          "rms_dbfs": -69.65,
+          "zero_samples": 100
+        }
+      ],
+      "expected_class": "level_order_effect",
+      "family": "trim_order",
+      "group": "trim_order",
+      "integrity_result": "verified",
+      "intent": "Normalize against the full-file transient peak, then trim to the same quiet window.",
+      "material": "dynamics_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "duration_seconds": 0.1,
+          "start_seconds": 0.45,
+          "type": "media_trim"
+        }
+      ],
+      "output_sha256": "24f886d22828700e87c324205d2d474dd884e85360fd6a2910a566674a8f2994",
+      "plan_digest": "74ff518df8ef03b03a2f494d21bef964fe663c5a2f39f5e4ffd9528863e7255f",
+      "primary_asset_file": "dynamics_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        },
+        {
+          "duration_seconds": 0.1,
+          "start_seconds": 0.45,
+          "type": "media_trim"
+        }
+      ],
+      "role": "B_contrast",
+      "rss_hwm_mib": 24.35,
+      "secondary_asset_file": null,
+      "trial_id": "f4_norm_then_trim"
+    },
+    "f4_trim_then_norm": {
+      "channels": [
+        {
+          "crest_factor": 1.4141,
+          "frames": 800,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11585.965,
+          "rms_dbfs": -9.03,
+          "zero_samples": 8
+        },
+        {
+          "crest_factor": 1.4155,
+          "frames": 800,
+          "peak": 257,
+          "peak_fraction_of_full_scale": 0.007843,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 181.563,
+          "rms_dbfs": -45.128,
+          "zero_samples": 100
+        }
+      ],
+      "expected_class": "level_order_effect",
+      "family": "trim_order",
+      "group": "trim_order",
+      "integrity_result": "verified",
+      "intent": "Trim to the quiet 0.45-0.55 s window first, then normalize that window to 0.5.",
+      "material": "dynamics_stereo_2s.wav",
+      "normalized_operations": [
+        {
+          "duration_seconds": 0.1,
+          "start_seconds": 0.45,
+          "type": "media_trim"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "e76e6728ea74b6c5619b922ccdaa2fac9c6993ee00a048377073c047c7c1038b",
+      "plan_digest": "11b16499ecb0ba409d0d2355d560190610508de642f4846f0efc375f90879f8b",
+      "primary_asset_file": "dynamics_stereo_2s.wav",
+      "requested_operations": [
+        {
+          "duration_seconds": 0.1,
+          "start_seconds": 0.45,
+          "type": "media_trim"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "A_reference",
+      "rss_hwm_mib": 23.74,
+      "secondary_asset_file": null,
+      "trial_id": "f4_trim_then_norm"
+    },
+    "f5_budget_1mb": {
+      "channels": [
+        {
+          "crest_factor": 1.4143,
+          "frames": 249989,
+          "peak": 16384,
+          "peak_fraction_of_full_scale": 0.500015,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 11584.926,
+          "rms_dbfs": -9.031,
+          "zero_samples": 2500
+        },
+        {
+          "crest_factor": 1.3905,
+          "frames": 249989,
+          "peak": 15,
+          "peak_fraction_of_full_scale": 0.000458,
+          "railed_fraction": 0.0,
+          "railed_samples": 0,
+          "rms": 10.788,
+          "rms_dbfs": -69.65,
+          "zero_samples": 31249
+        }
+      ],
+      "expected_class": "budget_probe",
+      "family": "budget",
+      "group": "budget_ladder",
+      "integrity_result": "verified",
+      "intent": "Reference order on a 1 MB two-channel input.",
+      "material": "boundary_1mb_dense.wav",
+      "normalized_operations": [
+        {
+          "db": -6.0,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "output_sha256": "a6a34cde7656f5b298b690ea257bdc50e26ea4847b99396794eee17ab1ce6a71",
+      "plan_digest": "6f1aad09429cb0d2bbd0a4adb3df8656ba0c967698ffd4c94964716717099bb4",
+      "primary_asset_file": "boundary_1mb_dense.wav",
+      "requested_operations": [
+        {
+          "db": -6,
+          "type": "audio_gain"
+        },
+        {
+          "target_peak": 0.5,
+          "type": "audio_normalize"
+        }
+      ],
+      "role": "probe",
+      "rss_hwm_mib": 59.75,
+      "secondary_asset_file": null,
+      "trial_id": "f5_budget_1mb"
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "equal_peak_check": {
+    "dense_crest_factor_left": 1.414,
+    "dense_file_peak": 32000,
+    "dense_rms_left": 22627.43,
+    "dense_silent_fraction_left": 0.01,
+    "equal": true,
+    "sparse_crest_factor_left": 6.216,
+    "sparse_file_peak": 32000,
+    "sparse_rms_left": 5148.24,
+    "sparse_silent_fraction_left": 0.901
+  },
+  "materials": {
+    "dense": {
+      "analysed_frames": 16000,
+      "channels": 2,
+      "channels_detail": [
+        {
+          "crest_factor": 1.414,
+          "peak": 32000,
+          "peak_fraction_of_full_scale": 0.97659,
+          "rms": 22627.43,
+          "silent_fraction": 0.01
+        },
+        {
+          "crest_factor": 1.416,
+          "peak": 30,
+          "peak_fraction_of_full_scale": 0.00092,
+          "rms": 21.19,
+          "silent_fraction": 0.125
+        }
+      ],
+      "file": "dense_stereo_2s.wav",
+      "file_peak": 32000,
+      "frames": 16000,
+      "rate": 8000,
+      "seconds": 2.0,
+      "size_bytes": 64044
+    },
+    "dynamics": {
+      "analysed_frames": 16000,
+      "channels": 2,
+      "channels_detail": [
+        {
+          "crest_factor": 10.895,
+          "peak": 32000,
+          "peak_fraction_of_full_scale": 0.97659,
+          "rms": 2937.09,
+          "silent_fraction": 0.01
+        },
+        {
+          "crest_factor": 1.416,
+          "peak": 30,
+          "peak_fraction_of_full_scale": 0.00092,
+          "rms": 21.19,
+          "silent_fraction": 0.125
+        }
+      ],
+      "file": "dynamics_stereo_2s.wav",
+      "file_peak": 32000,
+      "frames": 16000,
+      "rate": 8000,
+      "seconds": 2.0,
+      "size_bytes": 64044
+    },
+    "near_dense": {
+      "analysed_frames": 400000,
+      "channels": 2,
+      "channels_detail": [
+        {
+          "crest_factor": 1.414,
+          "peak": 32000,
+          "peak_fraction_of_full_scale": 0.97659,
+          "rms": 22627.43,
+          "silent_fraction": 0.01
+        },
+        {
+          "crest_factor": 1.416,
+          "peak": 30,
+          "peak_fraction_of_full_scale": 0.00092,
+          "rms": 21.19,
+          "silent_fraction": 0.125
+        }
+      ],
+      "file": "near_limit_dense.wav",
+      "file_peak": 32000,
+      "frames": 6249989,
+      "rate": 8000,
+      "seconds": 781.249,
+      "size_bytes": 25000000
+    },
+    "near_sparse": {
+      "analysed_frames": 400000,
+      "channels": 2,
+      "channels_detail": [
+        {
+          "crest_factor": 6.216,
+          "peak": 32000,
+          "peak_fraction_of_full_scale": 0.97659,
+          "rms": 5148.24,
+          "silent_fraction": 0.901
+        },
+        {
+          "crest_factor": 1.416,
+          "peak": 30,
+          "peak_fraction_of_full_scale": 0.00092,
+          "rms": 21.19,
+          "silent_fraction": 0.125
+        }
+      ],
+      "file": "near_limit_sparse.wav",
+      "file_peak": 32000,
+      "frames": 6249989,
+      "rate": 8000,
+      "seconds": 781.249,
+      "size_bytes": 25000000
+    },
+    "quiet": {
+      "analysed_frames": 16000,
+      "channels": 2,
+      "channels_detail": [
+        {
+          "crest_factor": 1.414,
+          "peak": 600,
+          "peak_fraction_of_full_scale": 0.01831,
+          "rms": 424.21,
+          "silent_fraction": 0.02
+        },
+        {
+          "crest_factor": 1.414,
+          "peak": 600,
+          "peak_fraction_of_full_scale": 0.01831,
+          "rms": 424.27,
+          "silent_fraction": 0.0005
+        }
+      ],
+      "file": "mix_quiet_secondary.wav",
+      "file_peak": 600,
+      "frames": 16000,
+      "rate": 8000,
+      "seconds": 2.0,
+      "size_bytes": 64044
+    },
+    "sparse": {
+      "analysed_frames": 16000,
+      "channels": 2,
+      "channels_detail": [
+        {
+          "crest_factor": 6.216,
+          "peak": 32000,
+          "peak_fraction_of_full_scale": 0.97659,
+          "rms": 5148.24,
+          "silent_fraction": 0.901
+        },
+        {
+          "crest_factor": 1.416,
+          "peak": 30,
+          "peak_fraction_of_full_scale": 0.00092,
+          "rms": 21.19,
+          "silent_fraction": 0.125
+        }
+      ],
+      "file": "sparse_transient_stereo_2s.wav",
+      "file_peak": 32000,
+      "frames": 16000,
+      "rate": 8000,
+      "seconds": 2.0,
+      "size_bytes": 64044
+    },
+    "strong": {
+      "analysed_frames": 16000,
+      "channels": 2,
+      "channels_detail": [
+        {
+          "crest_factor": 1.414,
+          "peak": 30000,
+          "peak_fraction_of_full_scale": 0.91556,
+          "rms": 21213.21,
+          "silent_fraction": 0.01
+        },
+        {
+          "crest_factor": 1.414,
+          "peak": 30000,
+          "peak_fraction_of_full_scale": 0.91556,
+          "rms": 21213.2,
+          "silent_fraction": 0.0003
+        }
+      ],
+      "file": "mix_strong_primary.wav",
+      "file_peak": 30000,
+      "frames": 16000,
+      "rate": 8000,
+      "seconds": 2.0,
+      "size_bytes": 64044
+    },
+    "weak": {
+      "analysed_frames": 16000,
+      "channels": 2,
+      "channels_detail": [
+        {
+          "crest_factor": 1.414,
+          "peak": 6000,
+          "peak_fraction_of_full_scale": 0.18311,
+          "rms": 4242.68,
+          "silent_fraction": 0.02
+        },
+        {
+          "crest_factor": 1.414,
+          "peak": 6000,
+          "peak_fraction_of_full_scale": 0.18311,
+          "rms": 4242.65,
+          "silent_fraction": 0.0005
+        }
+      ],
+      "file": "mix_weak_secondary.wav",
+      "file_peak": 6000,
+      "frames": 16000,
+      "rate": 8000,
+      "seconds": 2.0,
+      "size_bytes": 64044
+    }
+  },
+  "near_limit_bytes": 25000000,
+  "near_limit_fraction_of_cap": 0.9934,
+  "upload_cap_bytes": 25165824
+}
